@@ -1,0 +1,1439 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.">
+<link rel="shortcut icon" href="/gfg.png" type="image/x-icon" />
+
+<meta property="og:image" content="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="200">
+
+<title>GeeksforGeeks | A computer science portal for geeks</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="" />
+<!--[if lt IE 9]>
+<script src="https://www.geeksforgeeks.org/wp-content/themes/iconic-one/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<script>
+
+    var arrPostCat = new Array();
+            arrPostCat.push('1759');
+        var domain = 1;
+    var arrPost = new Array();
+    var post_id = "0";
+    var post_type = "post";
+    var post_slug = window.location.href;
+    var ip = "52.66.194.136";
+    var post_title = "Johnson and Trotter algorithm";
+    var post_status = "publish";
+                            var isAdminLoggedIn = 0;
+        </script>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="GeeksforGeeks | A computer science portal for geeks" />
+<meta property="og:site_name" content="GeeksforGeeks" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.geeksforgeeks.org' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="GeeksforGeeks &raquo; Feed" href="https://www.geeksforgeeks.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="GeeksforGeeks &raquo; Comments Feed" href="https://www.geeksforgeeks.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.geeksforgeeks.org\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mtq_CoreStyleSheets-css'  href='https://www.geeksforgeeks.org/wp-content/plugins/mtouch-quiz/mtq_core_style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mtq_ThemeStyleSheets-css'  href='https://www.geeksforgeeks.org/wp-content/plugins/mtouch-quiz/mtq_theme_style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-quicklatex-format-css'  href='https://www.geeksforgeeks.org/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css' type='text/css' media='all' />
+<link rel='stylesheet' id='themonic-fonts-css'  href='https://fonts.googleapis.com/css?family=Ubuntu:400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-css'  href='https://www.geeksforgeeks.org/wp-content/themes/iconic-one/css/gfg-1.7.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.geeksforgeeks.org/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://www.geeksforgeeks.org/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg-6.8.js'></script>
+<link rel='https://api.w.org/' href='https://www.geeksforgeeks.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cdn.geeksforgeeks.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.geeksforgeeks.org/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.6.9" />
+<style>
+#wpadminbar{
+background: #ff0000 !important;
+}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<link rel="icon" href="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png" />
+<meta name="msapplication-TileImage" content="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png" />
+
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/27823234/SP', [300, 250], 'div-gpt-ad-1458112424022-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+</head>
+
+<body class="blog custom-background custom-background-white custom-font-enabled">
+
+<!-- BuySellAds Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- End BuySellAds Ad Code -->
+
+<div id="page" style="position:relative;" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<div style="margin-bottom: 5px;">
+				<hgroup class="main_gfg_title">
+			<a href="https://www.geeksforgeeks.org/" title="GeeksforGeeks" rel="home">GeeksforGeeks</a>
+				<br .../> <a class="site-description">A computer science portal for geeks</a>
+		</hgroup>
+		<span class="responsive-custom-search">
+<script>
+  (function() {
+    var cx = '009682134359037907028:tj6eafkv_be';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+		<gcse:search></gcse:search>
+		</span>
+
+<div class="top-button-div">
+<hgroup style="float:right;display:inline-block;margin-top:5px;">
+
+
+<a class="products" href="https://practice.geeksforgeeks.org/">Practice</a>
+
+<a class="products" href="http://quiz.geeksforgeeks.org/gate-corner-2/">GATE CS</a>
+
+<a class="products" href="http://quiz.geeksforgeeks.org/placements/">Placements</a>
+
+<a class="products" href="https://www.youtube.com/geeksforgeeksvideos/">Videos</a>
+
+<a class="products" href="https://www.geeksforgeeks.org/contribute/">Contribute</a>
+</hgroup><br></br>
+
+
+<div id="profile" style="float: right; margin-top: -1%;margin-right:1%;"></div>
+</div>
+</div>
+
+
+
+		<nav id="site-navigation" class="themonic-nav" role="navigation">
+			<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+			<div class="menu-iconic-container"><ul id="menu-top" class="nav-menu"><li id="menu-item-147519" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-147519"><a href="/"><img style="width: 30px;vertical-align: middle;" src="https://www.geeksforgeeks.org/wp-content/uploads/gfg_transparent_white_small.png"></a></li>
+<li id="menu-item-141975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-141975"><a href="http://www.geeksforgeeks.org/fundamentals-of-algorithms/">Algo ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-135030" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135030"><a href="http://www.geeksforgeeks.org/fundamentals-of-algorithms/#AnalysisofAlgorithms">Analysis of Algorithms</a></li>
+	<li id="menu-item-146823" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146823"><a href="http://www.geeksforgeeks.org/fundamentals-of-algorithms/">Topicwise ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-147774" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147774"><a href="http://www.geeksforgeeks.org/searching-algorithms/">Searching Algorithms</a></li>
+		<li id="menu-item-147773" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147773"><a href="http://www.geeksforgeeks.org/sorting-algorithms/">Sorting Algorithms</a></li>
+		<li id="menu-item-135041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135041"><a href="http://www.geeksforgeeks.org/graph-data-structure-and-algorithms/">Graph Algorithms</a></li>
+		<li id="menu-item-135040" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135040"><a href="http://www.geeksforgeeks.org/bitwise-algorithms/">Bit Algorithms</a></li>
+		<li id="menu-item-135034" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135034"><a href="http://www.geeksforgeeks.org/fundamentals-of-algorithms/#PatternSearching">Pattern Searching</a></li>
+		<li id="menu-item-135038" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135038"><a href="http://www.geeksforgeeks.org/geometric-algorithms/">Geometric Algorithms</a></li>
+		<li id="menu-item-135039" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135039"><a href="http://www.geeksforgeeks.org/mathematical-algorithms/">Mathematical Algorithms</a></li>
+		<li id="menu-item-135042" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135042"><a href="http://www.geeksforgeeks.org/randomized-algorithms/">Randomized Algorithms</a></li>
+		<li id="menu-item-156520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156520"><a href="http://www.geeksforgeeks.org/category/algorithm/game-theory/">Game Theory</a></li>
+	</ul>
+</li>
+	<li id="menu-item-146824" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146824"><a href="http://www.geeksforgeeks.org/fundamentals-of-algorithms/">Algorithm Paradigms ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-135032" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135032"><a href="http://www.geeksforgeeks.org/greedy-algorithms/">Greedy Algorithms</a></li>
+		<li id="menu-item-135033" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135033"><a href="http://www.geeksforgeeks.org/dynamic-programming/">Dynamic Programming</a></li>
+		<li id="menu-item-135037" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135037"><a href="http://www.geeksforgeeks.org/divide-and-conquer/">Divide and Conquer</a></li>
+		<li id="menu-item-135036" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135036"><a href="http://www.geeksforgeeks.org/backtracking-algorithms/">Backtracking</a></li>
+		<li id="menu-item-137933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137933"><a href="http://www.geeksforgeeks.org/fundamentals-of-algorithms/#BranchandBound">Branch &#038; Bound</a></li>
+	</ul>
+</li>
+	<li id="menu-item-146911" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146911"><a href="http://www.geeksforgeeks.org/fundamentals-of-algorithms/">All Algorithms</a></li>
+</ul>
+</li>
+<li id="menu-item-142016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-142016"><a href="http://www.geeksforgeeks.org/data-structures/">DS  ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-135054" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135054"><a href="http://www.geeksforgeeks.org/array-data-structure/">Array</a></li>
+	<li id="menu-item-135045" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135045"><a href="http://www.geeksforgeeks.org/data-structures/linked-list/">LinkedList</a></li>
+	<li id="menu-item-135046" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135046"><a href="http://www.geeksforgeeks.org/stack-data-structure/">Stack</a></li>
+	<li id="menu-item-135047" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135047"><a href="http://www.geeksforgeeks.org/queue-data-structure/">Queue</a></li>
+	<li id="menu-item-146827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146827"><a href="http://www.geeksforgeeks.org/data-structures/">Tree based DS ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-135048" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135048"><a href="http://www.geeksforgeeks.org/binary-tree-data-structure/">Binary Tree</a></li>
+		<li id="menu-item-135049" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135049"><a href="http://www.geeksforgeeks.org/binary-search-tree-data-structure/">Binary Search Tree</a></li>
+		<li id="menu-item-135050" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135050"><a href="http://www.geeksforgeeks.org/heap-data-structure/">Heap</a></li>
+	</ul>
+</li>
+	<li id="menu-item-135051" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135051"><a href="http://www.geeksforgeeks.org/hashing-data-structure/">Hashing</a></li>
+	<li id="menu-item-135052" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135052"><a href="http://www.geeksforgeeks.org/graph-data-structure-and-algorithms/">Graph</a></li>
+	<li id="menu-item-135053" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135053"><a href="http://www.geeksforgeeks.org/advanced-data-structures/">Advanced Data Structure</a></li>
+	<li id="menu-item-135055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135055"><a href="http://www.geeksforgeeks.org/matrix/">Matrix</a></li>
+	<li id="menu-item-147716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147716"><a href="http://www.geeksforgeeks.org/string-data-structure/">Strings</a></li>
+	<li id="menu-item-135056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135056"><a href="http://www.geeksforgeeks.org/data-structures/">All Data Structures</a></li>
+</ul>
+</li>
+<li id="menu-item-147478" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-147478"><a href="http://www.geeksforgeeks.org/category/program-output/">Languages ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-135006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135006"><a href="https://www.geeksforgeeks.org/c/">C</a></li>
+	<li id="menu-item-135007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135007"><a href="https://www.geeksforgeeks.org/c-plus-plus/">C++</a></li>
+	<li id="menu-item-135012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135012"><a href="https://www.geeksforgeeks.org/java/">Java</a></li>
+	<li id="menu-item-137004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137004"><a href="https://www.geeksforgeeks.org/python/">Python</a></li>
+	<li id="menu-item-135016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135016"><a href="http://www.geeksforgeeks.org/sql-tutorial/">SQL</a></li>
+	<li id="menu-item-140854" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140854"><a title="http://www.geeksforgeeks.org/category/program-output/" href="https://www.geeksforgeeks.org/category/program-output/">Program Output</a></li>
+</ul>
+</li>
+<li id="menu-item-142017" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-142017"><a href="http://www.geeksforgeeks.org/about/interview-corner/">Interview  ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-141326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141326"><a href="https://www.geeksforgeeks.org/company-preparation/">Company Prep</a></li>
+	<li id="menu-item-137171" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137171"><a href="http://www.geeksforgeeks.org/interview-preparation-for-software-developer/">Top Topics</a></li>
+	<li id="menu-item-137172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137172"><a href="https://practice.geeksforgeeks.org/company-tags">Practice Company Questions</a></li>
+	<li id="menu-item-137173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137173"><a href="http://www.geeksforgeeks.org/about/interview-corner/">Interview Experiences</a></li>
+	<li id="menu-item-137174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137174"><a href="http://www.geeksforgeeks.org/category/interview-experiences/experienced-interview-experiences/">Experienced Interviews</a></li>
+	<li id="menu-item-137175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137175"><a href="http://www.geeksforgeeks.org/category/interview-experiences/internship-interview-experiences/">Internship Interviews</a></li>
+	<li id="menu-item-137176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137176"><a href="http://www.geeksforgeeks.org/category/competitive-programming/">Competitive Programming</a></li>
+	<li id="menu-item-147581" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147581"><a href="http://www.geeksforgeeks.org/software-design-patterns/">Design Patterns</a></li>
+	<li id="menu-item-137186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137186"><a href="http://geeksquiz.com/quiz-corner/">Multiple Choice Quizzes</a></li>
+</ul>
+</li>
+<li id="menu-item-137178" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-137178"><a href="http://www.geeksforgeeks.org/student-corner/">Students  ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-137183" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137183"><a href="http://www.geeksforgeeks.org/campus-ambassador-program-by-geeksforgeeks/">Campus Ambassador Program</a></li>
+	<li id="menu-item-137179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137179"><a href="http://www.geeksforgeeks.org/geek-of-the-month/">Geek of the Month</a></li>
+	<li id="menu-item-137570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137570"><a href="http://geeksquiz.com/placements/">Placement Course</a></li>
+	<li id="menu-item-136004" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136004"><a href="https://www.geeksforgeeks.org/category/project/">Project</a></li>
+	<li id="menu-item-137180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137180"><a href="http://www.geeksforgeeks.org/category/competitive-programming/">Competitive Programming</a></li>
+	<li id="menu-item-137181" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137181"><a href="http://www.geeksforgeeks.org/testimonials/">Testimonials</a></li>
+	<li id="menu-item-138863" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138863"><a href="http://www.geeksforgeeks.org/category/geek-on-the-top/">Geek on the Top</a></li>
+	<li id="menu-item-141974" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141974"><a href="http://www.geeksforgeeks.org/careers/">Careers</a></li>
+	<li id="menu-item-137378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137378"><a href="http://www.geeksforgeeks.org/internship/">Internship</a></li>
+	<li id="menu-item-147457" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147457"><a href="http://www.geeksforgeeks.org/school-programming/">School Programming</a></li>
+</ul>
+</li>
+<li id="menu-item-146712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146712"><a href="http://www.geeksforgeeks.org/gate-corner-2-gq/">GATE ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-146713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146713"><a href="http://www.geeksforgeeks.org/gate-corner-2-gq/">GATE CS Corner</a></li>
+	<li id="menu-item-146714" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146714"><a href="http://www.geeksforgeeks.org/gate-cs-notes-gq/">GATE Notes</a></li>
+	<li id="menu-item-146715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146715"><a href="http://www.geeksforgeeks.org/lmns-gq/">Last Minute Notes</a></li>
+	<li id="menu-item-146716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146716"><a href="http://www.geeksforgeeks.org/original-gate-previous-year-question-papers-cse-and-it-gq/">Official Papers</a></li>
+	<li id="menu-item-146717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146717"><a href="http://www.geeksforgeeks.org/gate-cs-2018-important-dates/">Gate 2018 Important Dates and Links</a></li>
+</ul>
+</li>
+<li id="menu-item-146718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146718"><a href="http://www.geeksforgeeks.org/articles-on-computer-science-subjects-gq/">CS Subjects ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-146729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146729"><a href="http://www.geeksforgeeks.org/operating-systems/">Operating Systems</a></li>
+	<li id="menu-item-146724" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146724"><a href="http://www.geeksforgeeks.org/dbms/">DBMS</a></li>
+	<li id="menu-item-146721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146721"><a href="http://www.geeksforgeeks.org/computer-network-tutorials/">Computer Networks</a></li>
+	<li id="menu-item-146720" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146720"><a href="http://www.geeksforgeeks.org/compiler-design-tutorials/">Compiler Design</a></li>
+	<li id="menu-item-147831" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147831"><a href="http://www.geeksforgeeks.org/web-technology/">Web Technology</a></li>
+	<li id="menu-item-146722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146722"><a href="http://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/">Computer Organization &#038; Architecture</a></li>
+	<li id="menu-item-146726" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146726"><a href="http://www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/">Digital Electronics</a></li>
+	<li id="menu-item-146727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146727"><a href="http://www.geeksforgeeks.org/engineering-mathematics-tutorials/">Engg. Mathematics</a></li>
+	<li id="menu-item-146730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146730"><a href="http://www.geeksforgeeks.org/theory-of-computation-automata-tutorials/">Theory of Computation</a></li>
+	<li id="menu-item-147512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147512"><a href="http://www.geeksforgeeks.org/advanced-computer-subjects-tutorials/">Advanced Topics</a></li>
+	<li id="menu-item-146725" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146725"><a href="http://www.geeksforgeeks.org/category/geeksquiz/articles-gq/difference-gq/">What&#8217;s Difference?</a></li>
+</ul>
+</li>
+<li id="menu-item-140855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-140855"><a href="http://quiz.geeksforgeeks.org/quiz-corner/">Quizzes ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-146748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146748"><a href="http://www.geeksforgeeks.org/quizzes-on-programming-languages-gq/">Languages ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-146743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146743"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#C%20Programming%20Mock%20Tests">C</a></li>
+		<li id="menu-item-146745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146745"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#C++%20Programming%20Mock%20Tests">C++</a></li>
+		<li id="menu-item-146746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146746"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Java%20Programming%20Mock%20Tests">Java</a></li>
+		<li id="menu-item-146747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146747"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Python%20Programming%20Mock%20Tests">Python</a></li>
+	</ul>
+</li>
+	<li id="menu-item-146825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146825"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Data%20Structures%20Mock%20Tests">CS Subjectwise ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-146731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146731"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Data%20Structures%20Mock%20Tests">Data Structures</a></li>
+		<li id="menu-item-146732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146732"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Algorithms%20Mock%20Tests">Algorithms</a></li>
+		<li id="menu-item-146733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146733"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Operating%20Systems%20Mock%20Tests">Operating Systems</a></li>
+		<li id="menu-item-146734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146734"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#DBMS%20Mock%20Tests">DBMS</a></li>
+		<li id="menu-item-146735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146735"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Compiler%20Design%20Mock%20Tests">Compiler Design</a></li>
+		<li id="menu-item-146736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146736"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Computer%20Networks%20Mock%20Tests">Computer Networks</a></li>
+		<li id="menu-item-146737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146737"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Theory%20of%20Computation%20Mock%20Tests">Theory of Computation</a></li>
+		<li id="menu-item-146738" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146738"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Computer%20Organization%20and%20Architecture">Computer Organization</a></li>
+		<li id="menu-item-146739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146739"><a href="http://www.geeksforgeeks.org/software-engineering-gq/">Software Engineering</a></li>
+	</ul>
+</li>
+	<li id="menu-item-146740" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146740"><a href="http://www.geeksforgeeks.org/html-and-xml-gq/">HTML &#038; XML</a></li>
+	<li id="menu-item-146741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146741"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Engineering%20Mathematics">Engg. Mathematics</a></li>
+	<li id="menu-item-146742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146742"><a href="http://www.geeksforgeeks.org/quiz-corner-gq/#Aptitude%20Mock%20Tests">Aptitude</a></li>
+</ul>
+</li>
+<li id="menu-item-135367" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-135367"><a href="https://www.geeksforgeeks.org/category/guestblogs/">GBlog</a></li>
+<li id="menu-item-141885" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141885"><a href="http://www.geeksforgeeks.org/puzzles/">Puzzles</a></li>
+<li id="menu-item-141816" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141816"><a href="http://www.geeksforgeeks.org/the-technical-scripter-event-by-geeksforgeeks-2/">What&#8217;s New?</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+		<div class="clear"></div>
+	</header><!-- #masthead -->
+<button id="scrollTopBtn" title="Scroll to Top" type="button" class="btn btn-success">&#x25B2;</button>
+	<div id="main" class="wrapper">
+<div class="leftSideBarParent">
+    <div class="leftSideBar">
+        <div class="menuDivForLeftbar"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></div><span class="leftbarDataSpan" data-pid="0" data-lid="1" data-type="post" data-termid="1759"></span><div class="quickLink_S">
+<table>
+<tbody>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/write-interview-experience/">How to write an Interview Experience?</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/must-coding-questions-company-wise/">Must Do Coding Questions Company-wise</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/">Must Do Coding Questions Topic-wise</a></td>
+</tr>
+
+
+<tr>
+<td class="quickLink-header_S"><b>Difficulty Levels</td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/basic/">Basic</a></td>
+</tr>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/easy/">Easy</a></td>
+</tr>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/medium/">Medium</a></td>
+</tr>
+
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/hard/">Hard</a></td>
+</tr>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/expert/">Expert</a></td>
+</tr>
+
+
+<tr>
+<td class="quickLink-header_S"><b>Popular Tags</td>
+</tr>
+
+
+<tr>
+<td style="padding:2px;line-height:1.7;font-size:13px;"><a href="http://www.geeksforgeeks.org/tag/amazon/">Amazon</a>,
+<a href="http://www.geeksforgeeks.org/tag/microsoft/">Microsoft</a>, <a href="http://www.geeksforgeeks.org/tag/dynamic-programming/">Dynamic Programming</a>, <a href="http://www.geeksforgeeks.org/tag/samsung/">Samsung</a><br/><a href="http://www.geeksforgeeks.org/tags/">Click here for more</a></td>
+</tr>
+
+
+
+
+<tr>
+<td class="quickLink-header_S"><b>Interview Preparation</td>
+</tr>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/a-complete-step-by-step-guide-for-placement-preparation-by-geeksforgeeks/">Step by Step Preparation</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/company-preparation/">Company Preparation</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/interview-preparation-for-software-developer/">Top Topics</a></td>
+</tr>
+
+
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/company-tags">Company Specific Practice</a></td>
+</tr>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/software-design-patterns/">Software Design Patterns</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/placements-gq/">Placements Preparation Course</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/company-interview-corner/">Interview Corner</a></td>
+</tr>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/category/interview-experiences/">Recent Interview Experiences</a></td>
+</tr>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/geeksquiz-home/">GQ Home Page</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/quiz-corner-gq/">Quiz Corner</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/lmns-gq/">LMNs</a></td>
+</tr>
+
+<tr>
+<td class="quickLink-header_S"><b>Practice Platform</b></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/recent.php?ref=home">What's New ?</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/ranking.php?ref=home">Leaderboard !!</a></td>
+</tr>
+
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/topic-tags/?ref=home">Topic-wise Practice</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/subjective-page.php?ref=home">Subjective Problems</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/School/0/0/?ref=home">Difficulty Level - School</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/Basic/0/0/?ref=home">Difficulty Level - Basic</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/Easy/0/0/?ref=home">Difficulty Level - Easy</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/Medium/0/0/?ref=home">Difficulty Level - Medium</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/Hard/0/0/?ref=home">Difficulty Level - Hard</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/pickACategory.php?ref=home">How to pick a difficulty level?</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/?ref=home">Explore More...</a></td>
+</tr>
+
+
+<tr>
+<td class="quickLink-header_S"><b>Programming Languages</b></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/c/">C</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/c-plus-plus/">C++</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/java/">Java</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/python/">Python</a></td>
+</tr>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/sql-tutorial/">SQL</a></td>
+</tr>
+
+
+<tr>
+<td class="quickLink-header_S"><b>Important Quick Links</b></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/school-programming/">School Programming</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/operating-systems/">Operating Systems</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/dbms/">DBMS</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/computer-network-tutorials/">Computer Networks</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/engineering-mathematics-tutorials/">Engineering Mathematics</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/category/design-pattern/">Design Patterns</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/category/puzzles/">Common Interview Puzzles</a></td>
+</tr>
+
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/web-technology/">Web Technology</a></td>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/category/gfact/">G-Facts</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/tag/computer-graphics/">Computer Graphics</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/image-processing/">Image Processing</a></td>
+</tr>
+
+<tr>
+<td><a href="http://www.geeksforgeeks.org/category/project/">Project Ideas</a></td>
+</tr>
+
+</tbody>
+</table>
+</div>    </div>
+</div>
+
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+
+                                                                                 	<article id="post-167861" class="post-167861 post type-post status-publish format-standard sticky hentry category-combinatorial">
+				<div class="featured-post">
+			Featured Article		</div>
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/johnson-trotter-algorithm/" title="Permalink to Johnson and Trotter algorithm" rel="bookmark">Johnson and Trotter algorithm</a>
+			</h2>
+
+
+							<div class="divclass">
+					<a href="https://www.geeksforgeeks.org/easy/" title="Easy"><span class="articleRating alignright level-2">2.3</span></a>
+					</div>
+								</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>We are given a sequence of numbers from 1 to n. Each permutation in the sequence that we need to generate should differ from the… <span class="read-more"><a href="https://www.geeksforgeeks.org/johnson-trotter-algorithm/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/algorithm/combinatorial/" rel="category tag">Combinatorial</a></div></span> <span></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-167567" class="post-167567 post type-post status-publish format-standard sticky hentry category-linked-list tag-programming-puzzle">
+				<div class="featured-post">
+			Featured Article		</div>
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/print-reverse-linked-list-without-extra-space-modifications/" title="Permalink to Print reverse of a Linked List without extra space and modifications" rel="bookmark">Print reverse of a Linked List without extra space and modifications</a>
+			</h2>
+
+
+							<div class="divclass">
+					<a href="https://www.geeksforgeeks.org/easy/" title="Easy"><span class="articleRating alignright level-2">2.3</span></a>
+					</div>
+								</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Given a Linked List, display the linked list in reverse without using recursion, stack or modifications to given list. Examples: Input : 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL Output :5-&gt;4-&gt;3-&gt;2-&gt;1-&gt;NULL… <span class="read-more"><a href="https://www.geeksforgeeks.org/print-reverse-linked-list-without-extra-space-modifications/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/data-structures/linked-list/" rel="category tag">Linked Lists</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/programming-puzzle/" rel="tag">programming-puzzle</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-166046" class="post-166046 post type-post status-publish format-standard sticky hentry category-c-arrays category-technical-scripter tag-circular-array">
+				<div class="featured-post">
+			Featured Article		</div>
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/circular-array/" title="Permalink to Circular array" rel="bookmark">Circular array</a>
+			</h2>
+
+
+							<div class="divclass">
+					<a href="https://www.geeksforgeeks.org/easy/" title="Easy"><span class="articleRating alignright level-2">2.6</span></a>
+					</div>
+								</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>An array is called circular if we consider first element as next of last element. Circular arrays are used to implement queue (Refer this and… <span class="read-more"><a href="https://www.geeksforgeeks.org/circular-array/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/data-structures/c-arrays/" rel="category tag">Arrays</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/technical-scripter/" rel="category tag">Technical Scripter</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/circular-array/" rel="tag">circular-array</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168368" class="post-168368 post type-post status-publish format-standard hentry category-c-arrays category-searching tag-binary-search">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/value-k-th-index-series-formed-append-insert-mex-middle/" title="Permalink to Value of  k-th index of a series formed by append and insert MEX in middle" rel="bookmark">Value of  k-th index of a series formed by append and insert MEX in middle</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Given two integers, n and k. Initially we have a sequence consisting of a single number 1. We need to consider series formed after n… <span class="read-more"><a href="https://www.geeksforgeeks.org/value-k-th-index-series-formed-append-insert-mex-middle/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/data-structures/c-arrays/" rel="category tag">Arrays</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/algorithm/searching/" rel="category tag">Searching</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/binary-search/" rel="tag">Binary-Search</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168366" class="post-168366 post type-post status-publish format-standard hentry category-linked-list">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/insert-whole-linked-list-k-th-position/" title="Permalink to Insert a whole linked list into other at k-th position" rel="bookmark">Insert a whole linked list into other at k-th position</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Given two linked list and a number k. Insert second linked list in to first at k-th position Examples: Input : a : 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL b… <span class="read-more"><a href="https://www.geeksforgeeks.org/insert-whole-linked-list-k-th-position/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/data-structures/linked-list/" rel="category tag">Linked Lists</a></div></span> <span></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168362" class="post-168362 post type-post status-publish format-standard hentry category-combinatorial category-mathematical">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/trinomial-triangle/" title="Permalink to Trinomial Triangle" rel="bookmark">Trinomial Triangle</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>The trinomial triangle is a variation of Pascal&#8217;s triangle. The difference between the two is that an entry in the trinomial triangle is the sum… <span class="read-more"><a href="https://www.geeksforgeeks.org/trinomial-triangle/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/algorithm/combinatorial/" rel="category tag">Combinatorial</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/algorithm/mathematical/" rel="category tag">Mathematical</a></div></span> <span></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168336" class="post-168336 post type-post status-publish format-standard hentry category-java category-misc tag-java-util-package">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/output-java-programs-set-54-vectors/" title="Permalink to Output of Java Programs | Set 54 (Vectors)" rel="bookmark">Output of Java Programs | Set 54 (Vectors)</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Prerequisite : Vectors in Java Basics 1. What is the Output Of the following Program Output: 20 0 Explanation: function &#8211; int capacity( ) Returns… <span class="read-more"><a href="https://www.geeksforgeeks.org/output-java-programs-set-54-vectors/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/programming-language/java/" rel="category tag">Java</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/misc/" rel="category tag">Misc</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/java-util-package/" rel="tag">Java - util package</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168332" class="post-168332 post type-post status-publish format-standard hentry category-python tag-python-dict tag-python-set">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/python-minimum-number-subsets-distinct-elements-using-counter/" title="Permalink to Python | Minimum number of subsets with distinct elements using Counter" rel="bookmark">Python | Minimum number of subsets with distinct elements using Counter</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>You are given an array of n-element. You have to make subsets from the array such that no subset contain duplicate elements. Find out minimum… <span class="read-more"><a href="https://www.geeksforgeeks.org/python-minimum-number-subsets-distinct-elements-using-counter/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/programming-language/python/" rel="category tag">Python</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/python-dict/" rel="tag">python-dict</a></div><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/python-set/" rel="tag">python-set</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168328" class="post-168328 post type-post status-publish format-standard hentry category-python tag-python-string">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/python-find-number-occurring-odd-number-times-using-lambda-expression-reduce-function/" title="Permalink to Python | Find the Number Occurring Odd Number of Times using  Lambda expression and reduce function" rel="bookmark">Python | Find the Number Occurring Odd Number of Times using  Lambda expression and reduce function</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Given an array of positive integers. All numbers occur even number of times except one number which occurs odd number of times. Find the number… <span class="read-more"><a href="https://www.geeksforgeeks.org/python-find-number-occurring-odd-number-times-using-lambda-expression-reduce-function/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/programming-language/python/" rel="category tag">Python</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/python-string/" rel="tag">python-string</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168000" class="post-168000 post type-post status-publish format-standard hentry category-c-arrays category-sorting">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/find-minimum-number-operation-make-array-decreasing/" title="Permalink to Minimum number of subtract operation to make an array decreasing" rel="bookmark">Minimum number of subtract operation to make an array decreasing</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>You are given a sequence of numbers arr[0], arr[1], &#8230;, arr[N &#8211; 1] and a positive integer K. In each operation, you may subtract K… <span class="read-more"><a href="https://www.geeksforgeeks.org/find-minimum-number-operation-make-array-decreasing/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/data-structures/c-arrays/" rel="category tag">Arrays</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/algorithm/sorting/" rel="category tag">Sorting</a></div></span> <span></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168309" class="post-168309 post type-post status-publish format-standard hentry category-cpp tag-cpp-library tag-cpp-queue tag-stl">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/priority_queuetop-c-stl/" title="Permalink to priority_queue::top() in C++ STL" rel="bookmark">priority_queue::top() in C++ STL</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Priority queues are a type of container adaptors, specifically designed such that the first element of the queue is the greatest of all elements in… <span class="read-more"><a href="https://www.geeksforgeeks.org/priority_queuetop-c-stl/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/programming-language/cpp/" rel="category tag">C++</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/cpp-library/" rel="tag">CPP-Library</a></div><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/cpp-queue/" rel="tag">cpp-queue</a></div><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/stl/" rel="tag">STL</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168283" class="post-168283 post type-post status-publish format-standard hentry category-hash category-c-strings tag-palindrome">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/minimum-equal-palindromic-cuts-with-rearrangements-allowed/" title="Permalink to Minimum equal palindromic cuts with rearrangements allowed" rel="bookmark">Minimum equal palindromic cuts with rearrangements allowed</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Given a string of length n. Find the minimum number of possible cuts after rearranging the string (if required), such that each cut is a… <span class="read-more"><a href="https://www.geeksforgeeks.org/minimum-equal-palindromic-cuts-with-rearrangements-allowed/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/data-structures/hash/" rel="category tag">Hash</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/data-structures/c-strings/" rel="category tag">Strings</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/palindrome/" rel="tag">palindrome</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168304" class="post-168304 post type-post status-publish format-standard hentry category-cpp tag-cpp-library tag-cpp-queue tag-stl">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/priority_queuepush-priority_queuepop-c-stl/" title="Permalink to priority_queue::push() and priority_queue::pop() in C++ STL" rel="bookmark">priority_queue::push() and priority_queue::pop() in C++ STL</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Priority queues are a type of container adaptors, specifically designed such that the first element of the queue is the greatest of all elements in… <span class="read-more"><a href="https://www.geeksforgeeks.org/priority_queuepush-priority_queuepop-c-stl/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/programming-language/cpp/" rel="category tag">C++</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/cpp-library/" rel="tag">CPP-Library</a></div><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/cpp-queue/" rel="tag">cpp-queue</a></div><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/stl/" rel="tag">STL</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168301" class="post-168301 post type-post status-publish format-standard hentry category-mathematical category-school-programming tag-number-theory tag-series">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/program-find-sum-series-11-22-33-44-55-nn/" title="Permalink to Program to find the sum of a Series (1*1) + (2*2) + (3*3) + (4*4) + (5*5) + &#8230; + (n*n)" rel="bookmark">Program to find the sum of a Series (1*1) + (2*2) + (3*3) + (4*4) + (5*5) + &#8230; + (n*n)</a>
+			</h2>
+
+
+							<div class="divclass">
+					<a href="https://www.geeksforgeeks.org/basic/" title="Basic"><span class="articleRating alignright level-1">1</span></a>
+					</div>
+								</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>You have been given a series (1*1) + (2*2) + (3*3) + (4*4) + (5*5) + &#8230; + (n*n), find out the sum of the… <span class="read-more"><a href="https://www.geeksforgeeks.org/program-find-sum-series-11-22-33-44-55-nn/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/algorithm/mathematical/" rel="category tag">Mathematical</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/school-programming/" rel="category tag">School Programming</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/number-theory/" rel="tag">number-theory</a></div><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/series/" rel="tag">series</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168128" class="post-168128 post type-post status-publish format-standard hentry category-school-programming category-technical-scripter tag-number-digits">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/find-largest-sum-digits-divisors-n/" title="Permalink to Find largest sum of digits in all divisors of n" rel="bookmark">Find largest sum of digits in all divisors of n</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Given a integer number n, find largest sum of digits in all divisors of n. Examples: Input : n = 12 Output : 6 Explanation:… <span class="read-more"><a href="https://www.geeksforgeeks.org/find-largest-sum-digits-divisors-n/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/school-programming/" rel="category tag">School Programming</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/technical-scripter/" rel="category tag">Technical Scripter</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/number-digits/" rel="tag">number-digits</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168287" class="post-168287 post type-post status-publish format-standard hentry category-mathematical tag-factorial tag-series">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/program-get-sum-series-1-x22-x44-upto-nth-term/" title="Permalink to Program to get the Sum of series: 1 &#8211; x^2/2! + x^4/4! -&#8230;. upto nth term" rel="bookmark">Program to get the Sum of series: 1 &#8211; x^2/2! + x^4/4! -&#8230;. upto nth term</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>This is a mathematical series program where a user must enter the number of terms up to which the sum of the series is to… <span class="read-more"><a href="https://www.geeksforgeeks.org/program-get-sum-series-1-x22-x44-upto-nth-term/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/algorithm/mathematical/" rel="category tag">Mathematical</a></div></span> <span><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/factorial/" rel="tag">factorial</a></div><div class="tagButton"><a href="https://www.geeksforgeeks.org/tag/series/" rel="tag">series</a></div></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168281" class="post-168281 post type-post status-publish format-standard hentry category-binary-search-tree">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/iterative-searching-binary-search-tree/" title="Permalink to Iterative searching in Binary Search Tree" rel="bookmark">Iterative searching in Binary Search Tree</a>
+			</h2>
+
+
+						</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Given a binary search tree and a key. Check the given key exist in BST or not without recursion. Examples: Input : 13 Output :… <span class="read-more"><a href="https://www.geeksforgeeks.org/iterative-searching-binary-search-tree/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/data-structures/binary-search-tree/" rel="category tag">Binary Search Tree</a></div></span> <span></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+                                                         	<article id="post-168278" class="post-168278 post type-post status-publish format-standard hentry category-c-arrays category-greedy category-sorting">
+				<header class="entry-header">
+						<h2 class="entry-title">
+				<a href="https://www.geeksforgeeks.org/smallest-subset-sum-greater-elements/" title="Permalink to Smallest subset with sum greater than all other elements" rel="bookmark">Smallest subset with sum greater than all other elements</a>
+			</h2>
+
+
+							<div class="divclass">
+					<a href="https://www.geeksforgeeks.org/medium/" title="Medium"><span class="articleRating alignright level-3">3</span></a>
+					</div>
+								</header><!-- .entry-header -->
+
+
+		<div class="entry-summary">
+				<!-- Ico nic One home page thumbnail with custom excerpt -->
+<div class="excerpt-thumb">
+    </div>
+			<p>Given an array of non-negative integers. Our task is to find minimum number of elements such that their sum should be greater than the sum… <span class="read-more"><a href="https://www.geeksforgeeks.org/smallest-subset-sum-greater-elements/">Read More &raquo;</a></span></p>
+		</div><!-- .entry-summary -->
+
+
+
+		<footer class="entry-meta">
+		<span><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/data-structures/c-arrays/" rel="category tag">Arrays</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/algorithm/greedy/" rel="category tag">Greedy</a></div><div class="categoryButton"><a href="https://www.geeksforgeeks.org/category/algorithm/sorting/" rel="category tag">Sorting</a></div></span> <span></span>
+
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+
+<div class="AdsParent" style="width:100%;">
+<span class="rectangleAd">
+<!--
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ Big Rectangle Blog Bottom
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="4061219431"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- GfGDownLeftNew -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="5794942435"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</span>
+<span class="responsiveAd">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- newMobile2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="1950485631"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</span>
+</div>
+
+
+						<nav id="nav-below" class="navigation" role="navigation">
+			<center><div class='wp-pagenavi'>
+<span class='pages'>Page 1 of 898</span><span class='current'>1</span><a class="page larger" href="https://www.geeksforgeeks.org/page/2/">2</a><a class="page larger" href="https://www.geeksforgeeks.org/page/3/">3</a><a class="page larger" href="https://www.geeksforgeeks.org/page/4/">4</a><a class="page larger" href="https://www.geeksforgeeks.org/page/5/">5</a><span class='extend'>...</span><a class="larger page" href="https://www.geeksforgeeks.org/page/10/">10</a><a class="larger page" href="https://www.geeksforgeeks.org/page/20/">20</a><a class="larger page" href="https://www.geeksforgeeks.org/page/30/">30</a><span class='extend'>...</span><a class="nextpostslink" rel="next" href="https://www.geeksforgeeks.org/page/2/">»</a><a class="last" href="https://www.geeksforgeeks.org/page/898/">Last »</a>
+</div></center>
+			</nav>
+
+				</div><!-- #content -->
+	</div><!-- #primary -->
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="text-2" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Big 300x600 Sidebar -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="4402736037"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside><aside id="text-3" class="widget widget_text">			<div class="textwidget"><div class="trendings_gfg">
+					<table width="100%" align="center">
+						<thead>
+							<tr>
+								<th style="border:1px solid #6AA84F;background-color:#4CB96B;color:#fff;text-align: center;font-size: 16px;">Trending Content</th>
+							</tr>
+						</thead>
+						<tbody>
+
+<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+
+
+							<a href="http://www.geeksforgeeks.org/longest-common-subsequence/">Longest Common Subsequence</a>
+
+						</td>
+					</tr>
+												<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+
+
+							<a href="http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/">Breadth First Traversal or BFS</a>
+
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+
+							<a href="http://www.geeksforgeeks.org/school-programming/">School Programming</a>
+
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="http://www.geeksforgeeks.org/longest-repeated-subsequence/">Longest Repeated Subsequence</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/">Longest Palindromic Subsequence</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="http://www.geeksforgeeks.org/detect-negative-cycle-graph-bellman-ford/">Detect a negative cycle in a Graph | (Bellman Ford)</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="http://www.geeksforgeeks.org/knapsack-problem/">0-1 Knapsack Problem</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="http://www.geeksforgeeks.org/gate-cs-notes-gq/">GATE CS Notes</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/">Depth First Traversal or DFS for a Graph</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="http://www.geeksforgeeks.org/reverse-a-linked-list/">Reverse a linked list</a>
+
+						</td>
+					</tr>
+						</tbody>
+					</table>
+				</div></div>
+		</aside><aside id="text-4" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ResponsiveRightBarMay16 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="7089558833"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside><aside id="text-5" class="widget widget_text">			<div class="textwidget"><table align="center" width="100%">
+    <thead>
+        <tr>
+            <th style="border:1px solid #6AA84F;background-color:#4CB96B;color:#fff;text-align: center;font-size: 16px;line-height:1.7;">
+                Most Visited Posts
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/">Top 10 Algorithms and Data Structures for Competitive Programming</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/">Top 10 algorithms in Interview Questions</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/how-to-begin-with-competitive-programming/">How to begin with Competitive Programming?</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/a-complete-step-by-step-guide-for-placement-preparation-by-geeksforgeeks/">Step by Step Guide for Placement Preparation</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/how-to-prepare-for-acm-icpc/">How to prepare for ACM-ICPC?</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://quiz.geeksforgeeks.org/insertion-sort/">Insertion Sort</a>,
+                <a href="http://geeksquiz.com/binary-search/">Binary Search</a>,
+                <a href="http://geeksquiz.com/quick-sort/">QuickSort</a>,
+                <a href="http://geeksquiz.com/merge-sort/">MergeSort</a>,
+                <a href="http://geeksquiz.com/heap-sort/">HeapSort</a>
+            </td>
+        </tr>
+    </tbody>
+</table></div>
+		</aside><aside id="text-7" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- GfGSideBottomResponsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="5749413230"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"><table align="center" width="100%">
+    <thead>
+        <tr>
+            <th style="border:1px solid #6AA84F;background-color:#4CB96B;color:#fff;text-align: center;font-size: 16px;line-height:1.7;">
+                Popular Categories
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/interview-experiences/">Interview Experiences</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/advanced-data-structures/">Advanced Data Structures</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/dynamic-programming/">Dynamic Programming</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/greedy/">Greedy Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/backtracking/">Backtracking</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/pattern-searching/">Pattern Searching</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/divide-and-conquer/">Divide &amp; Conquer</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/algorithm/geometric/">Geometric Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/searching/">Searching</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/sorting/">Sorting</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/algorithm/analysis/">Analysis of Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/algorithm/mathematical/">Mathematical Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/algorithm/randomized/">Randomized Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/tag/recursion">Recursion</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/category/algorithm/game-theory/">Game Theory</a>
+            </td>
+<tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">							<a href="http://www.geeksforgeeks.org/tag/statistical-algorithms/">Statistical Algorithms</a>            </td>
+
+        </tr>
+
+    </tbody>
+</table></div>
+		</aside><aside id="text-8" class="widget widget_text">			<div class="textwidget"><!-- BuySellAds Zone Code -->
+<div id="bsap_1306934" class="bsarocks bsap_785bf45b162de1c5511e8baa02854e5c"></div>
+<!-- End BuySellAds Zone Code --></div>
+		</aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><p class="widget-title">Tags</p><div class="tagcloud"><a href='https://www.geeksforgeeks.org/category/advanced-data-structure/' class='tag-link-1762 tag-link-position-1' title='156 topics' style='font-size: 9.8449612403101pt;'>Advanced Data Structure</a>
+<a href='https://www.geeksforgeeks.org/tag/amazon/' class='tag-link-1942 tag-link-position-2' title='470 topics' style='font-size: 14.945736434109pt;'>Amazon</a>
+<a href='https://www.geeksforgeeks.org/tag/aptitude/' class='tag-link-2159 tag-link-position-3' title='287 topics' style='font-size: 12.666666666667pt;'>Aptitude</a>
+<a href='https://www.geeksforgeeks.org/category/quizzes-gq/aptitude-gq/' class='tag-link-2200 tag-link-position-4' title='284 topics' style='font-size: 12.558139534884pt;'>Aptitude</a>
+<a href='https://www.geeksforgeeks.org/category/data-structures/c-arrays/' class='tag-link-3 tag-link-position-5' title='629 topics' style='font-size: 16.356589147287pt;'>Arrays</a>
+<a href='https://www.geeksforgeeks.org/category/articles/' class='tag-link-18 tag-link-position-6' title='108 topics' style='font-size: 8.1085271317829pt;'>Articles</a>
+<a href='https://www.geeksforgeeks.org/category/algorithm/bit-magic/' class='tag-link-17 tag-link-position-7' title='203 topics' style='font-size: 11.038759689922pt;'>Bit Magic</a>
+<a href='https://www.geeksforgeeks.org/category/programming-language/c/' class='tag-link-2064 tag-link-position-8' title='561 topics' style='font-size: 15.813953488372pt;'>C</a>
+<a href='https://www.geeksforgeeks.org/tag/c/' class='tag-link-2138 tag-link-position-9' title='397 topics' style='font-size: 14.186046511628pt;'>C</a>
+<a href='https://www.geeksforgeeks.org/category/programming-language/cpp/' class='tag-link-2065 tag-link-position-10' title='691 topics' style='font-size: 16.790697674419pt;'>C++</a>
+<a href='https://www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/cpp-gq/' class='tag-link-2207 tag-link-position-11' title='130 topics' style='font-size: 8.9767441860465pt;'>C++ Quiz</a>
+<a href='https://www.geeksforgeeks.org/category/computer-subject/computer-networks/' class='tag-link-2051 tag-link-position-12' title='107 topics' style='font-size: 8pt;'>Computer Networks</a>
+<a href='https://www.geeksforgeeks.org/tag/cpp-library/' class='tag-link-1964 tag-link-position-13' title='135 topics' style='font-size: 9.0852713178295pt;'>CPP-Library</a>
+<a href='https://www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/c-gq/' class='tag-link-2206 tag-link-position-14' title='274 topics' style='font-size: 12.449612403101pt;'>C Quiz</a>
+<a href='https://www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/data-structures-gate-gq/' class='tag-link-2213 tag-link-position-15' title='129 topics' style='font-size: 8.8682170542636pt;'>Data Structures</a>
+<a href='https://www.geeksforgeeks.org/tag/data-structures/' class='tag-link-2142 tag-link-position-16' title='129 topics' style='font-size: 8.8682170542636pt;'>Data Structures</a>
+<a href='https://www.geeksforgeeks.org/category/computer-subject/dbms/' class='tag-link-2053 tag-link-position-17' title='106 topics' style='font-size: 8pt;'>DBMS</a>
+<a href='https://www.geeksforgeeks.org/category/algorithm/dynamic-programming/' class='tag-link-1746 tag-link-position-18' title='284 topics' style='font-size: 12.558139534884pt;'>Dynamic Programming</a>
+<a href='https://www.geeksforgeeks.org/category/interview-experiences/experienced-interview-experiences/' class='tag-link-1795 tag-link-position-19' title='138 topics' style='font-size: 9.1937984496124pt;'>Experienced</a>
+<a href='https://www.geeksforgeeks.org/category/guestblogs/' class='tag-link-1710 tag-link-position-20' title='278 topics' style='font-size: 12.558139534884pt;'>GBlog</a>
+<a href='https://www.geeksforgeeks.org/category/algorithm/geometric/' class='tag-link-1754 tag-link-position-21' title='115 topics' style='font-size: 8.3255813953488pt;'>Geometric</a>
+<a href='https://www.geeksforgeeks.org/category/data-structures/graph/' class='tag-link-2068 tag-link-position-22' title='187 topics' style='font-size: 10.604651162791pt;'>Graph</a>
+<a href='https://www.geeksforgeeks.org/category/data-structures/hash/' class='tag-link-1756 tag-link-position-23' title='157 topics' style='font-size: 9.8449612403101pt;'>Hash</a>
+<a href='https://www.geeksforgeeks.org/category/interview-experiences/internship-interview-experiences/' class='tag-link-1794 tag-link-position-24' title='174 topics' style='font-size: 10.279069767442pt;'>Internship</a>
+<a href='https://www.geeksforgeeks.org/category/interview-experiences/' class='tag-link-1140 tag-link-position-25' title='2,075 topics' style='font-size: 22pt;'>Interview Experiences</a>
+<a href='https://www.geeksforgeeks.org/category/programming-language/java/' class='tag-link-2058 tag-link-position-26' title='709 topics' style='font-size: 16.899224806202pt;'>Java</a>
+<a href='https://www.geeksforgeeks.org/category/data-structures/linked-list/' class='tag-link-8 tag-link-position-27' title='186 topics' style='font-size: 10.604651162791pt;'>Linked Lists</a>
+<a href='https://www.geeksforgeeks.org/category/algorithm/mathematical/' class='tag-link-1753 tag-link-position-28' title='781 topics' style='font-size: 17.333333333333pt;'>Mathematical</a>
+<a href='https://www.geeksforgeeks.org/category/data-structures/matrix/' class='tag-link-1760 tag-link-position-29' title='214 topics' style='font-size: 11.255813953488pt;'>Matrix</a>
+<a href='https://www.geeksforgeeks.org/tag/microsoft/' class='tag-link-104 tag-link-position-30' title='191 topics' style='font-size: 10.713178294574pt;'>Microsoft</a>
+<a href='https://www.geeksforgeeks.org/tag/number-digits/' class='tag-link-1911 tag-link-position-31' title='132 topics' style='font-size: 8.9767441860465pt;'>number-digits</a>
+<a href='https://www.geeksforgeeks.org/category/program-output/' class='tag-link-5 tag-link-position-32' title='191 topics' style='font-size: 10.713178294574pt;'>Program Output</a>
+<a href='https://www.geeksforgeeks.org/category/project/' class='tag-link-1767 tag-link-position-33' title='124 topics' style='font-size: 8.7596899224806pt;'>Project</a>
+<a href='https://www.geeksforgeeks.org/category/puzzles/' class='tag-link-2063 tag-link-position-34' title='164 topics' style='font-size: 10.062015503876pt;'>Puzzles</a>
+<a href='https://www.geeksforgeeks.org/category/programming-language/python/' class='tag-link-1789 tag-link-position-35' title='551 topics' style='font-size: 15.705426356589pt;'>Python</a>
+<a href='https://www.geeksforgeeks.org/category/quizzes-gq/qa-placement-quizzes-gq/' class='tag-link-2204 tag-link-position-36' title='274 topics' style='font-size: 12.449612403101pt;'>QA - Placement Quizzes</a>
+<a href='https://www.geeksforgeeks.org/tag/qa-placement-quizzes/' class='tag-link-2187 tag-link-position-37' title='274 topics' style='font-size: 12.449612403101pt;'>QA - Placement Quizzes</a>
+<a href='https://www.geeksforgeeks.org/category/school-programming/' class='tag-link-2078 tag-link-position-38' title='378 topics' style='font-size: 13.968992248062pt;'>School Programming</a>
+<a href='https://www.geeksforgeeks.org/category/algorithm/searching/' class='tag-link-1751 tag-link-position-39' title='128 topics' style='font-size: 8.8682170542636pt;'>Searching</a>
+<a href='https://www.geeksforgeeks.org/tag/series/' class='tag-link-1919 tag-link-position-40' title='126 topics' style='font-size: 8.7596899224806pt;'>series</a>
+<a href='https://www.geeksforgeeks.org/category/algorithm/sorting/' class='tag-link-1752 tag-link-position-41' title='234 topics' style='font-size: 11.68992248062pt;'>Sorting</a>
+<a href='https://www.geeksforgeeks.org/tag/stl/' class='tag-link-1797 tag-link-position-42' title='261 topics' style='font-size: 12.232558139535pt;'>STL</a>
+<a href='https://www.geeksforgeeks.org/category/data-structures/c-strings/' class='tag-link-7 tag-link-position-43' title='490 topics' style='font-size: 15.162790697674pt;'>Strings</a>
+<a href='https://www.geeksforgeeks.org/category/technical-scripter/' class='tag-link-1788 tag-link-position-44' title='198 topics' style='font-size: 10.93023255814pt;'>Technical Scripter</a>
+<a href='https://www.geeksforgeeks.org/category/data-structures/tree/' class='tag-link-19 tag-link-position-45' title='295 topics' style='font-size: 12.77519379845pt;'>Trees</a></div>
+</aside><aside id="text-9" class="widget widget_text">			<div class="textwidget"><!-- BuySellAds Zone Code -->
+<div id="bsap_1304848" class="bsarocks bsap_785bf45b162de1c5511e8baa02854e5c"></div>
+<!-- End BuySellAds Zone Code --></div>
+		</aside><aside id="text-10" class="widget widget_text">			<div class="textwidget"><a href="http://www.geeksforgeeks.org/recent-comments/" style="margin-right: 0px !important;">
+  <center>
+    <input type="button" value="Recent Comments" style="background-color: #4cb96b; color:white; width:100%; font-size:large; cursor:pointer;font-weight:bold;">
+  </center>
+</a></div>
+		</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo" style="padding:0; ">
+		<div class="site-info">
+		<div class="clear"></div>
+		</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+<center>
+  <div class="iconic-footer" style="min-height:40px;font-size:14px;padding-bottom: 0px;line-height: 1.5;">
+    @geeksforgeeks,
+    <a href="http://creativecommons.org/licenses/by-nc-nd/2.5/in/deed.en_US" title="Valid XHTML Strict 1.0">Some rights reserved</a><a href="https://www.geeksforgeeks.org/about/contact-us/"> &nbsp; &nbsp; &nbsp; &nbsp;Contact Us!</a>
+    <a href="https://www.geeksforgeeks.org/about/"> &nbsp; &nbsp; &nbsp; &nbsp;About Us!&nbsp; &nbsp; &nbsp;</a>
+    <a href="https://www.geeksforgeeks.org/careers/"> &nbsp; &nbsp; &nbsp;Careers!&nbsp; &nbsp; </a>
+    <a href="https://www.geeksforgeeks.org/privacy-policy/">&nbsp; &nbsp; &nbsp; Privacy Policy&nbsp; &nbsp;&nbsp; </a>
+    <!-- adding social buttons on 07 April, 2017 -->
+    <a href="https://www.facebook.com/GeeksforGeeks-316764689022/timeline/" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="facebook">
+      <img src="https://www.geeksforgeeks.org/wp-content/uploads/square_facebook_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+    <a href="https://twitter.com/geeksforgeeks" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="twitter">
+      <img src="https://www.geeksforgeeks.org/wp-content/uploads/square_twitter_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+    <a href="https://www.linkedin.com/company-beta/1299009" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="linkedin">
+      <img src="https://www.geeksforgeeks.org/wp-content/uploads/square_linkedin_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=free.programming.programming" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="play store">
+      <img src="https://www.geeksforgeeks.org/wp-content/uploads/square_play_store_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+    <a href="https://www.microsoft.com/en-us/store/apps/geeksforgeeks-official/9nblggh4rh30" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="windows store">
+      <img src="https://www.geeksforgeeks.org/wp-content/uploads/square_windows_store_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+  </div>
+</center><!-- .site-info -->
+
+				<div class="clear"></div>
+</div><!-- #page -->
+
+<script type='text/javascript' src='https://www.geeksforgeeks.org/wp-includes/js/wp-embed.min.js'></script>
+
+<script type="text/javascript">
+// below changes to be added in gfg.js in future.
+// load comment button click when page scroll to it and positioned ad in mobile view.
+flag=0;jQuery(window).scroll(function(){if(jQuery('#comment').length !=0 ){var hT=jQuery('#comment').offset().top,hH=jQuery('#comment').outerHeight(),wH=jQuery(window).height(),wS=jQuery(this).scrollTop();if(wS>(hT+hH-wH-70)&&!flag){jQuery('#comment').click();flag=1}}});var temp_width=jQuery(window).width();if(temp_width<468){if(jQuery('article').length>1){jQuery(jQuery('.responsiveAd')).insertAfter('article:eq(2)');jQuery('.rectangleAd').hide()}
+else if(jQuery('#practiceLinkDiv').length>0){jQuery(jQuery('.responsiveAd')).insertAfter('#practiceLinkDiv');jQuery('.rectangleAd').css('width','')}else{jQuery('.responsiveAd').hide();jQuery('.rectangleAd').css('width','')}}
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12148232-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script async type="text/javascript" src="//cdn.fancybar.net/ac/fancybar.js?zoneid=1502&serve=C6ADVKE&placement=geeksforgeeks" id="_fancybar_js"></script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.526 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2017-12-22 02:00:46 -->
+
+<!-- Compression = gzip -->
