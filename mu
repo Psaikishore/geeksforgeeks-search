@@ -189,419 +189,780 @@
 
 
 -----------------------------------------------NEXT OPTIONS-----------------------------------------
-2 https://www.geeksforgeeks.org/binary-search/
-3 https://www.geeksforgeeks.org/jump-search/
-4 https://www.geeksforgeeks.org/interpolation-search/
-5 https://www.geeksforgeeks.org/exponential-search/
-6 https://www.geeksforgeeks.org/sublist-search-search-a-linked-list-in-another-list/
-7 https://www.geeksforgeeks.org/fibonacci-search/
-8 https://www.geeksforgeeks.org/the-ubiquitous-binary-search-set-1/
-9 https://www.geeksforgeeks.org/recursive-c-program-linearly-search-element-given-array/
-10 https://www.geeksforgeeks.org/recursive-function-to-do-substring-search/
-11 https://www.geeksforgeeks.org/find-the-point-where-a-function-becomes-negative/
-12 https://www.geeksforgeeks.org/linear-search-vs-binary-search/
-13 https://www.geeksforgeeks.org/g-fact-84/
-14 https://www.geeksforgeeks.org/binary-search-preferred-ternary-search/
-15 https://www.geeksforgeeks.org/binary-search-functions-in-c-stl-binary_search-lower_bound-and-upper_bound/
-16 https://www.geeksforgeeks.org/arrays-binarysearch-java-examples-set-1/
-17 https://www.geeksforgeeks.org/arrays-binarysearch-in-java-with-examples-set-2-search-in-subarray/
-18 https://www.geeksforgeeks.org/collections-binarysearch-java-examples/
-19 https://www.geeksforgeeks.org/find-the-missing-number/
-20 https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
-21 https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
-22 https://www.geeksforgeeks.org/two-elements-whose-sum-is-closest-to-zero/
-23 https://www.geeksforgeeks.org/to-find-smallest-and-second-smallest-element-in-an-array/
-24 https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/
-25 https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
-26 https://www.geeksforgeeks.org/ceiling-in-a-sorted-array/
-27 https://www.geeksforgeeks.org/count-number-of-occurrences-or-frequency-in-a-sorted-array/
-28 https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/
-29 https://www.geeksforgeeks.org/find-a-fixed-point-in-a-given-array/
-30 https://www.geeksforgeeks.org/find-the-maximum-element-in-an-array-which-is-first-increasing-and-then-decreasing/
-31 https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
-32 https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/
-33 https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/
-34 https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
-35 https://www.geeksforgeeks.org/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/
-36 https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/
-37 https://www.geeksforgeeks.org/kth-smallest-element-in-a-row-wise-and-column-wise-sorted-2d-array-set-1/
-38 https://www.geeksforgeeks.org/find-k-closest-elements-given-value/
-39 https://www.geeksforgeeks.org/search-almost-sorted-array/
-40 https://www.geeksforgeeks.org/problem-binary-search-implementations/
-41 https://www.geeksforgeeks.org/find-first-repeating-element-array-integers/
-42 https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/
-43 https://www.geeksforgeeks.org/count-1s-sorted-binary-array/
-44 https://www.geeksforgeeks.org/given-sorted-array-number-x-find-pair-array-whose-sum-closest-x/
-45 https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/
-46 https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
-47 https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array-set-2-expected-linear-time-2/
-48 https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array-set-3-worst-case-linear-time/
-49 https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
-50 https://www.geeksforgeeks.org/given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/
-51 https://www.geeksforgeeks.org/find-the-largest-pair-sum-in-an-unsorted-array/
-52 https://www.geeksforgeeks.org/find-the-nearest-smaller-numbers-on-left-side-in-an-array/
-53 https://www.geeksforgeeks.org/kth-largest-element-in-a-stream/
-54 https://www.geeksforgeeks.org/return-a-pair-with-maximum-product-in-array-of-integers/
-55 https://www.geeksforgeeks.org/find-the-element-that-appears-once-in-a-sorted-array/
-56 https://www.geeksforgeeks.org/find-the-element-that-odd-number-of-times-in-olog-n-time/
-57 https://www.geeksforgeeks.org/find-the-largest-three-elements-in-an-array/
-58 https://www.geeksforgeeks.org/search-an-element-in-an-array-where-difference-between-adjacent-elements-is-1/
-59 https://www.geeksforgeeks.org/find-three-closest-elements-from-given-three-sorted-arrays/
-60 https://www.geeksforgeeks.org/find-the-element-before-which-all-the-elements-are-smaller-than-it-and-after-which-all-are-greater-than-it/
-61 https://www.geeksforgeeks.org/binary-search-for-rational-numbers-without-using-floating-point-arithmetic/
-62 https://www.geeksforgeeks.org/floor-in-a-sorted-array/
-63 https://www.geeksforgeeks.org/third-largest-element-array-distinct-elements/
-64 https://www.geeksforgeeks.org/second-minimum-element-using-minimum-comparisons/
-65 https://www.geeksforgeeks.org/queries-greater-not-less/
-66 https://www.geeksforgeeks.org/efficient-search-in-an-array-where-difference-between-adjacent-is-1/
-67 https://www.geeksforgeeks.org/print-possible-sums-consecutive-numbers-sum-n/
-68 https://www.geeksforgeeks.org/minimum-time-required-produce-m-items/
-69 https://www.geeksforgeeks.org/make-array-elements-equal-minimum-cost/
-70 https://www.geeksforgeeks.org/check-exist-two-elements-array-whose-sum-equal-sum-rest-array/
-71 https://www.geeksforgeeks.org/check-reversing-sub-array-make-array-sorted/
-72 https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/
-73 https://www.geeksforgeeks.org/search-insert-and-delete-in-an-unsorted-array/
-74 https://www.geeksforgeeks.org/search-insert-and-delete-in-a-sorted-array/
-75 https://www.geeksforgeeks.org/move-occurrences-element-end-linked-list/
-76 https://www.geeksforgeeks.org/search-in-an-array-of-strings-where-non-empty-strings-are-sorted/
-77 https://www.geeksforgeeks.org/smallest-difference-triplet-from-three-arrays/
-78 https://www.geeksforgeeks.org/best-first-search-informed-search/
-79 https://www.geeksforgeeks.org/algorithms-gq/searching-gq/
-80 http://www.stumbleupon.com/submit?url=https://www.geeksforgeeks.org/searching-algorithms/&title=Searching Algorithms
-81 https://ide.geeksforgeeks.org/
-
-
-
-
-
-In this post search, insert and delete operation in a sorted array is discussed.
-
-Recommended: Please solve it on &#8220;PRACTICE&#8221; first, before moving on to the solution.
-
- Search Operation
-In a sorted array, the search operation can be performed by using binary search.
-
-C
-
-
-
-// C program to implement binary search in sorted array
-#include&lt;stdio.h&gt;
-
-int binarySearch(int arr[], int low, int high, int key)
-{
-   if (high &lt; low)
-       return -1;
-   int mid = (low + high)/2;  /*low + (high - low)/2;*/
-   if (key == arr[mid])
-       return mid;
-   if (key &gt; arr[mid])
-       return binarySearch(arr, (mid + 1), high, key);
-   return binarySearch(arr, low, (mid -1), key);
-}
-
-/* Driver program to check above functions */
-int main()
-{
-   // Let us search 3 in below array
-   int arr[] = {5, 6, 7, 8, 9, 10};
-    int n,key;
-
-   n = sizeof(arr)/sizeof(arr[0]);
-   key =10;
-
-   printf(&quot;Index: %d\n&quot;, binarySearch(arr,0, n, key) );
-   return 0;
-}
-
-
-Java
-
-
-
-// Java program to implement binary
-// search in a sorted array
-
-class Main
-{   
-    // function to implement
-    // binary search
-    static int binarySearch(int arr[], int low, int high, int key)
-    {
-       if (high &lt; low)
-           return -1;
-        
-        /*low + (high - low)/2;*/           
-       int mid = (low + high)/2;  
-       if (key == arr[mid])
-           return mid;
-       if (key &gt; arr[mid])
-           return binarySearch(arr, (mid + 1), high, key);
-       return binarySearch(arr, low, (mid -1), key);
-    }
- 
-    /* Driver program to test above function */
-    public static void main (String[] args)
-    {
-       int arr[] = {5, 6, 7, 8, 9, 10};
-       int n,key;
-       n = arr.length;
-       key =10;
-     
-       System.out.println(&quot;Index: &quot; + 
-           binarySearch(arr,0, n, key) );
-    }    
-}
-
-
-Output:
-
-Index: 5
-
-Insert Operation
-In an unsorted array, the insert operation is faster as compared to sorted array because we don&#8217;t have to care about the position at which the element to be placed.
-
-C
-
-
-
-// C program to implement insert operation in
-// an sorted array.
-#include&lt;stdio.h&gt;
-
-// Inserts a key in arr[] of given capacity.  n is current
-// size of arr[]. This function returns n+1 if insertion
-// is successful, else n.
-int insertSorted(int arr[], int n, int key, int capacity)
-{
-    // Cannot insert more elements if n is already
-    // more than or equal to capcity
-    if (n &gt;= capacity)
-       return n;
-
-    int i;
-    for (i=n-1; ( i &gt;= 0  &amp;&amp; arr[i] &gt; key); i--)
-       arr[i+1] = arr[i];
-
-    arr[i+1] = key;
-
-    return (n+1);
-}
-
-/* Driver program to test above function */
-int main()
-{
-    int arr[20] = {12, 16, 20, 40, 50, 70};
-    int capacity = sizeof(arr)/sizeof(arr[0]);
-    int n = 6;
-    int i, key = 26;
-
-    printf(&quot;\nBefore Insertion: &quot;);
-    for (i=0; i&lt;n; i++)
-        printf(&quot;%d  &quot;, arr[i]);
-
-    // Inserting key
-    n = insertSorted(arr, n, key, capacity);
-
-    printf(&quot;\nAfter Insertion: &quot;);
-    for (i=0; i&lt;n; i++)
-        printf(&quot;%d  &quot;,arr[i]);
-
-    return 0;
-}
-
-
-Java
-
-
-
-// Java program to insert an 
-// element in a sorted array
-
-class Main
-{   
-    // Inserts a key in arr[] of given 
-    // capacity.  n is current size of arr[]. 
-    // This function returns n+1 if insertion
-    // is successful, else n.
-    static int insertSorted(int arr[], int n, int key, int capacity)
-    {
-        // Cannot insert more elements if n is already
-        // more than or equal to capcity
-        if (n &gt;= capacity)
-           return n;
-     
-        int i;
-        for (i=n-1; (arr[i] &gt; key &amp;&amp; i &gt;= 0); i--)
-           arr[i+1] = arr[i];
-     
-        arr[i+1] = key;
-     
-        return (n+1);
-    }
- 
-    /* Driver program to test above function */
-    public static void main (String[] args)
-    {
-        int arr[] = new int[20];
-        arr[0] = 12;
-        arr[1] = 16;
-        arr[2] = 20;
-        arr[3] = 40;
-        arr[4] = 50;
-        arr[5] = 70;
-        int capacity = arr.length;
-        int n = 6;
-        int key = 26;
- 
-    System.out.print(&quot;\nBefore Insertion: &quot;);
-    for (int i=0; i&lt;n; i++)
-        System.out.print(arr[i] + &quot; &quot;);
- 
-    // Inserting key
-    n = insertSorted(arr, n, key, capacity);
- 
-    System.out.print(&quot;\nAfter Insertion: &quot;);
-    for (int i=0; i&lt;n; i++)
-        System.out.print(arr[i] + &quot; &quot;);
-    }    
-}
-
-
-Output:
-
-Before Insertion: 12 16 20 40 50 70 
-After Insertion: 12 16 20 26 40 50 70 
-
-Delete Operation
-In delete operation, the element to be deleted is searched using binary search and then delete operation is performed followed by shifting the elements.
-
-C
-
-
-
-// C program to implement delete operation in a
-// sorted array
-#include&lt;stdio.h&gt;
-
-// To search a ley to be deleted
-int binarySearch(int arr[], int low, int high, int key);
-
-/* Function to delete an element */
-int deleteElement(int arr[], int n, int key)
-{
-    // Find position of element to be deleted
-    int pos = binarySearch(arr, 0, n-1, key);
-
-    if (pos==-1)
-    {
-        printf(&quot;Element not found&quot;);
-        return n;
-    }
-
-    // Deleting element
-    int i;
-    for (i=pos; i&lt;n; i++)
-        arr[i] = arr[i+1];
-
-    return n-1;
-}
-
-int binarySearch(int arr[], int low, int high, int key)
-{
-    if (high &lt; low)
-        return -1;
-    int mid = (low + high)/2;
-    if (key == arr[mid])
-        return mid;
-    if (key &gt; arr[mid])
-        return binarySearch(arr, (mid + 1), high, key);
-    return binarySearch(arr, low, (mid -1), key);
-}
-
-// Driver code
-int main()
-{
-    int i;
-    int arr[] = {10, 20, 30, 40, 50};
-
-    int n = sizeof(arr)/sizeof(arr[0]);
-    int key = 30;
-
-    printf(&quot;Array before deletion\n&quot;);
-    for (i=0; i&lt;n; i++)
-      printf(&quot;%d  &quot;, arr[i]);
-
-    n = deleteElement(arr, n, key);
-
-    printf(&quot;\n\nArray after deletion\n&quot;);
-    for (i=0; i&lt;n; i++)
-      printf(&quot;%d  &quot;, arr[i]);
-}
-
-
-Java
-
-
-
-// Java program to delete an 
-// element from a sorted array
-
-class Main
-{   
-    // binary search
-    static int binarySearch(int arr[], int low, int high, int key)
-    {
-        if (high &lt; low)
-            return -1;
-        int mid = (low + high)/2;
-        if (key == arr[mid])
-            return mid;
-        if (key &gt; arr[mid])
-            return binarySearch(arr, (mid + 1), high, key);
-        return binarySearch(arr, low, (mid -1), key);
-    }
+2 https://www.geeksforgeeks.org/data-structures/linked-list/
+3 https://www.geeksforgeeks.org/stack/
+4 https://www.geeksforgeeks.org/queue/
+5 https://www.geeksforgeeks.org/binary-tree-2/
+6 https://www.geeksforgeeks.org/binary-search-tree/
+7 https://www.geeksforgeeks.org/heap/
+8 https://www.geeksforgeeks.org/hashing/
+9 https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
+10 https://www.geeksforgeeks.org/matrix/
+11 https://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/
+12 https://www.geeksforgeeks.org/overview-of-data-structures-set-2-binary-tree-bst-heap-and-hash/
+13 https://www.geeksforgeeks.org/overview-of-data-structures-set-3-graph-trie-segment-tree-and-suffix-tree/
+14 https://www.geeksforgeeks.org/abstract-data-types/
+15 https://www.geeksforgeeks.org/linked-list-vs-array/
+16 https://www.geeksforgeeks.org/how-to-write-functions-that-modify-the-head-pointer-of-a-linked-list/
+17 https://www.geeksforgeeks.org/swap-nodes-in-a-linked-list-without-swapping-data/
+18 https://www.geeksforgeeks.org/write-a-function-to-reverse-the-nodes-of-a-linked-list/
+19 https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+20 https://www.geeksforgeeks.org/merge-sort-for-linked-list/
+21 https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+22 https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+23 https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+24 https://www.geeksforgeeks.org/rotate-a-linked-list/
+25 https://www.geeksforgeeks.org/generic-linked-list-in-c-2/
+26 https://www.geeksforgeeks.org/circular-singly-linked-list-insertion/
+27 https://www.geeksforgeeks.org/split-a-circular-linked-list-into-two-halves/
+28 https://www.geeksforgeeks.org/sorted-insert-for-circular-linked-list/
+29 https://www.geeksforgeeks.org/delete-a-node-in-a-doubly-linked-list/
+30 https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/
+31 https://www.geeksforgeeks.org/the-great-tree-list-recursion-problem/
+32 https://www.geeksforgeeks.org/quicksort-for-linked-list/
+33 https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/
+34 https://www.geeksforgeeks.org/data-structures/linked-list/
+35 https://www.geeksforgeeks.org/archives/18754
+36 https://www.geeksforgeeks.org/archives/6547
+37 https://www.geeksforgeeks.org/archives/8405
+38 https://www.geeksforgeeks.org/archives/6921
+39 https://www.geeksforgeeks.org/sort-a-stack-using-recursion/
+40 https://www.geeksforgeeks.org/the-stock-span-problem/
+41 https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
+42 https://www.geeksforgeeks.org/implement-stack-using-queue/
+43 https://www.geeksforgeeks.org/design-a-stack-with-find-middle-operation/
+44 https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/
+45 https://www.geeksforgeeks.org/sort-a-stack-using-recursion/
+46 https://www.geeksforgeeks.org/stack/
+47 https://www.geeksforgeeks.org/archives/11042
+48 https://www.geeksforgeeks.org/implementation-deque-using-circular-array/
+49 https://www.geeksforgeeks.org/archives/5009
+50 https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/
+51 https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/
+52 https://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/
+53 https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/
+54 https://www.geeksforgeeks.org/queue/
+55 https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/
+56 https://www.geeksforgeeks.org/applications-of-tree-data-structure/
+57 https://www.geeksforgeeks.org/618/
+58 https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/
+59 https://www.geeksforgeeks.org/level-order-tree-traversal/
+60 https://www.geeksforgeeks.org/diameter-of-a-binary-tree/
+61 https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
+62 https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/
+63 https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/
+64 https://www.geeksforgeeks.org/if-you-are-given-two-traversal-sequences-can-you-construct-the-binary-tree/
+65 https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/
+66 https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
+67 https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/
+68 https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/
+69 https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/
+70 https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/
+71 https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+72 https://www.geeksforgeeks.org/binary-tree-2/
+73 https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/
+74 https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/
+75 https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+76 https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/
+77 https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
+78 https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/
+79 https://www.geeksforgeeks.org/merge-two-bsts-with-limited-extra-space/
+80 https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
+81 https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/
+82 https://www.geeksforgeeks.org/in-place-conversion-of-sorted-dll-to-balanced-bst/
+83 https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/
+84 https://www.geeksforgeeks.org/g-fact-18/
+85 https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/
+86 https://www.geeksforgeeks.org/binary-tree-to-binary-search-tree-conversion/
+87 https://www.geeksforgeeks.org/binary-search-tree/
+88 https://www.geeksforgeeks.org/why-is-binary-heap-preferred-over-bst-for-priority-queue/
+89 https://www.geeksforgeeks.org/binomial-heap-2/
+90 https://www.geeksforgeeks.org/fibonacci-heap-set-1-introduction/
+91 https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
+92 https://www.geeksforgeeks.org/nearly-sorted-algorithm/
+93 https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/
+94 https://www.geeksforgeeks.org/heap/
+95 https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
+96 https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/
+97 https://www.geeksforgeeks.org/union-and-intersection-of-two-linked-lists/
+98 https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+99 https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/
+100 https://www.geeksforgeeks.org/find-itinerary-from-a-given-list-of-tickets/
+101 https://www.geeksforgeeks.org/find-number-of-employees-under-every-manager/
+102 https://www.geeksforgeeks.org/hashing/
+103 https://www.geeksforgeeks.org/graph-and-its-representations/
+104 https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/
+105 https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/
+106 https://www.geeksforgeeks.org/applications-of-depth-first-search/
+107 https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/
+108 https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+109 https://www.geeksforgeeks.org/union-find/
+110 https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
+111 https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/
+112 https://www.geeksforgeeks.org/topological-sorting/
+113 https://www.geeksforgeeks.org/bipartite-graph/
+114 https://www.geeksforgeeks.org/snake-ladder-problem-2/
+115 https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/
+116 https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/
+117 https://www.geeksforgeeks.org/assign-directions-to-edges-so-that-the-directed-graph-remains-acyclic/
+118 https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
+119 https://www.geeksforgeeks.org/memory-efficient-doubly-linked-list/
+120 https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-1/
+121 https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-2/
+122 https://www.geeksforgeeks.org/skip-list/
+123 https://www.geeksforgeeks.org/self-organizing-list-set-1-introduction/
+124 https://www.geeksforgeeks.org/unrolled-linked-list-set-1-introduction/
+125 https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+126 https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/
+127 https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/
+128 https://www.geeksforgeeks.org/persistent-segment-tree-set-1-introduction/
+129 https://www.geeksforgeeks.org/tag/segment-tree/
+130 https://www.geeksforgeeks.org/trie-insert-and-search/
+131 https://www.geeksforgeeks.org/trie-delete/
+132 https://www.geeksforgeeks.org/longest-prefix-matching-a-trie-based-solution-in-java/
+133 https://www.geeksforgeeks.org/print-unique-rows/
+134 https://www.geeksforgeeks.org/implement-reverse-dns-look-cache/
+135 https://www.geeksforgeeks.org/implement-forward-dns-look-cache/
+136 https://www.geeksforgeeks.org/tag/trie/
+137 https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
+138 https://www.geeksforgeeks.org/two-dimensional-binary-indexed-tree-or-fenwick-tree/
+139 https://www.geeksforgeeks.org/binary-indexed-tree-range-updates-point-queries/
+140 https://www.geeksforgeeks.org/binary-indexed-tree-range-update-range-queries/
+141 https://www.geeksforgeeks.org/tag/binary-indexed-tree/
+142 https://www.geeksforgeeks.org/suffix-array-set-1-introduction/
+143 https://www.geeksforgeeks.org/suffix-array-set-2-a-nlognlogn-algorithm/
+144 https://www.geeksforgeeks.org/%c2%ad%c2%adkasais-algorithm-for-construction-of-lcp-array-from-suffix-array/
+145 https://www.geeksforgeeks.org/pattern-searching-set-8-suffix-tree-introduction/
+146 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/
+147 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/
+148 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-3/
+149 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-4/
+150 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-5/
+151 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-6/
+152 https://www.geeksforgeeks.org/generalized-suffix-tree-1/
+153 https://www.geeksforgeeks.org/suffix-tree-application-4-build-linear-time-suffix-array/
+154 https://www.geeksforgeeks.org/suffix-tree-application-1-substring-check/
+155 https://www.geeksforgeeks.org/suffix-tree-application-2-searching-all-patterns/
+156 https://www.geeksforgeeks.org/suffix-tree-application-3-longest-repeated-substring/
+157 https://www.geeksforgeeks.org/suffix-tree-application-6-longest-palindromic-substring/
+158 https://www.geeksforgeeks.org/tag/suffix-tree/
+159 https://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+160 https://www.geeksforgeeks.org/avl-tree-set-2-deletion/
+161 https://www.geeksforgeeks.org/splay-tree-set-1-insert/
+162 https://www.geeksforgeeks.org/splay-tree-set-2-insert-delete/
+163 https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/
+164 https://www.geeksforgeeks.org/b-tree-set-1-insert-2/
+165 https://www.geeksforgeeks.org/b-tree-set-3delete/
+166 https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/
+167 https://www.geeksforgeeks.org/red-black-tree-set-2-insert/
+168 https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/
+169 https://www.geeksforgeeks.org/tag/self-balancing-bst/
+170 https://www.geeksforgeeks.org/k-dimensional-tree/
+171 https://www.geeksforgeeks.org/k-dimensional-tree-set-2-find-minimum/
+172 https://www.geeksforgeeks.org/k-dimensional-tree-set-3-delete/
+173 https://www.geeksforgeeks.org/treap-a-randomized-binary-search-tree/
+174 https://www.geeksforgeeks.org/ternary-search-tree/
+175 https://www.geeksforgeeks.org/interval-tree/
+176 https://www.geeksforgeeks.org/implement-lru-cache/
+177 https://www.geeksforgeeks.org/sort-numbers-stored-on-different-machines/
+178 https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/
+179 https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together-set-2/
+180 https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/
+181 https://www.geeksforgeeks.org/decision-trees-fake-coin-puzzle/
+182 https://www.geeksforgeeks.org/g-fact-87/
+183 https://www.geeksforgeeks.org/data-structure-dictionary-spell-checker/
+184 https://www.geeksforgeeks.org/cartesian-tree/
+185 https://www.geeksforgeeks.org/cartesian-tree-sorting/
+186 https://www.geeksforgeeks.org/sparse-set/
+187 https://www.geeksforgeeks.org/centroid-decomposition-of-tree/
+188 https://www.geeksforgeeks.org/gomory-hu-tree-introduction/
+189 https://www.geeksforgeeks.org/search-insert-and-delete-in-an-unsorted-array/
+190 https://www.geeksforgeeks.org/search-insert-and-delete-in-a-sorted-array/
+191 https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array/
+192 https://www.geeksforgeeks.org/leaders-in-an-array/
+193 https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+194 https://www.geeksforgeeks.org/majority-element/
+195 https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/
+196 https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+197 https://www.geeksforgeeks.org/find-the-missing-number/
+198 https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+199 https://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/
+200 https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
+201 https://www.geeksforgeeks.org/array-rotation/
+202 https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/
+203 https://www.geeksforgeeks.org/block-swap-algorithm-for-array-rotation/
+204 https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+205 https://www.geeksforgeeks.org/sort-elements-by-frequency/
+206 https://www.geeksforgeeks.org/counting-inversions/
+207 https://www.geeksforgeeks.org/array/
+208 https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+209 https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+210 https://www.geeksforgeeks.org/a-boolean-matrix-question/
+211 https://www.geeksforgeeks.org/print-unique-rows/
+212 https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+213 https://www.geeksforgeeks.org/print-unique-rows/
+214 https://www.geeksforgeeks.org/inplace-m-x-n-size-matrix-transpose/
+215 https://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/
+216 https://www.geeksforgeeks.org/strassens-matrix-multiplication/
+217 https://www.geeksforgeeks.org/create-a-matrix-with-alternating-rectangles-of-0-and-x/
+218 https://www.geeksforgeeks.org/print-elements-sorted-order-row-column-wise-sorted-matrix/
+219 https://www.geeksforgeeks.org/given-n-x-n-square-matrix-find-sum-sub-squares-size-k-x-k/
+220 https://www.geeksforgeeks.org/count-number-islands-every-island-separated-line/
+221 https://www.geeksforgeeks.org/find-common-element-rows-row-wise-sorted-matrix/
+222 https://www.geeksforgeeks.org/matrix/
+223 https://www.geeksforgeeks.org/expression-tree/
+224 http://www.stumbleupon.com/submit?url=https://www.geeksforgeeks.org/data-structures/&title=Data Structures
+225 https://ide.geeksforgeeks.org/
+
+
+
+
+
+&#8216;Recent Articles&#8217; on Hashing
+Topic :
+
+
+
+Basics
+Easy
+Intermediate
+
+
+
+
+Hard
+Misc
+Quick Links
+
+
+
+Basics :
+
+
+Introduction
+Index Mapping (or Trivial Hashing)
+Separate Chaining for Collision Handling 
+Open Addressing for Collision Handling 
+
+
+Easy :
+
+
+Print a Binary Tree in Vertical Order | Set 2 (Hashmap based Method)
+Find whether an array is subset of another array
+Union and Intersection of two Linked Lists
+Given an array A[] and a number x, check for pair in A[] with sum as x
+Check if a given array contains duplicate elements within k distance from each other
+Given an array of pairs, find all symmetric pairs in it
+Group multiple occurrence of array elements ordered by first occurrence
+How to check if two given sets are disjoint?
+Pair with given product | Set 1 (Find if any pair exists)
+Find missing elements of a range
+Count pairs with given sum
+Convert an array to reduced form | Set 1 (Simple and Hashing)
+Return maximum occurring character in an input string
+Find the first repeating element in an array of integers
+Print All Distinct Elements of a given integer array
+Find all permuted rows of a given row in a matrix
+
+
+Intermediate :
+
+
+Find Itinerary from a given list of tickets
+Find number of Employees Under every Employee
+Check if an array can be divided into pairs whose sum is divisible by k
+Find four elements a, b, c and d in an array such that a+b = c+d
+Find the largest subarray with 0 sum
+Longest Consecutive Subsequence
+Count distinct elements in every window of size k
+Design a data structure that supports insert, delete, search and getRandom in constant time
+Length of the largest subarray with contiguous elements
+Find if there is a subarray with 0 sum
+Print all subarrays with 0 sum
+Find subarray with given sum | Set 2 (Handles Negative Numbers)
+Implementing our Own Hash Table with Separate Chaining in Java
+Vertical Sum in a given Binary Tree 
+Group Shifted String
+Check for Palindrome after every character replacement Query
+
+
+Hard :
+
+
+Clone a Binary Tree with Random Pointers
+Largest subarray with equal number of 0s and 1s
+Palindrome Substring Queries
+Find smallest range containing elements from k lists
+Cuckoo Hashing – Worst case O(1) Lookup!
+Subarrays with distinct elements
+
+
+Misc :
+
+
+Advantages of BST over Hash Table
+Internal Working of HashMap in Java
+Hash Table vs STL Map
+
+
+Quick Links :
+
+&#8216;Practice Problems&#8217; on Hashing
+&#8216;Quizzes&#8217; on Hashing
+&#8216;Videos&#8217; on Hashing
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+			
+
+
+
+ Big Rectangle Blog Bottom 
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+-->
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+
+
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+
+
+
+Company Wise Coding Practice
+&nbsp;&nbsp;&nbsp;Topic Wise Coding Practice
+
+
+
+		
+		
+					
+	
+	
+	
+
+	
+   
     
-    /* Function to delete an element */
-    static int deleteElement(int arr[], int n, int key)
-    {
-        // Find position of element to be deleted
-        int pos = binarySearch(arr, 0, n-1, key);
-     
-        if (pos==-1)
-        {
-            System.out.println(&quot;Element not found&quot;);
-            return n;
-        }
-     
-        // Deleting element
-        int i;
-        for (i=pos; i&lt;n-1; i++)
-            arr[i] = arr[i+1];
-     
-        return n-1;
-    }
+    
+        
+    
+    
+    
+    
+        
+    
+    
+    
+    
+        
+    
+    
+    
+    
+        
+    
 
-    /* Driver program to test above function */
-    public static void main (String[] args)
-    {
-       
-        int i;
-        int arr[] = {10, 20, 30, 40, 50};
-     
-        int n = arr.length;
-        int key = 30;
-     
-        System.out.print(&quot;Array before deletion:\n&quot;);
-        for (i=0; i&lt;n; i++)
-          System.out.print(arr[i] + &quot; &quot;);
-     
-        n = deleteElement(arr, n, key);
-     
-        System.out.print(&quot;\n\nArray after deletion:\n&quot;);
-        for (i=0; i&lt;n; i++)
-          System.out.print(arr[i] + &quot; &quot;);
-    }    
+    
+    
+        
+    
+    
+    
+    
+        
+    
+    
+    
+    
+        
+    
+    
+    
+    
+        
+    
+   
+	
+
+	
+	Writing code in comment? Please use ide.geeksforgeeks.org, generate link and share the link here.
+	
+	
+		Load Comments
+		Share this post !
+
+	
+
+        
+
+					
+	
+
+	jQuery(document).ready(function($){$('#comment').on('click',function(){$.ajax({type:"GET",url:"http://geeksforgeeks.disqus.com/embed.js",dataType:"script",cache:!0});$(this).fadeOut()});if(window.location.href.indexOf('#comment') > -1){jQuery('#comment').click();}});
+
+
+ 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
 }
+#share-buttons a:hover {
+	text-decoration: none;
+}
+
+
+			
+						
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+					
+					
+						
+							
+								Trending Content
+							
+						
+						
+
+
+						
+
+
+							Longest Common Subsequence
+
+						
+								
+												
+						
+
+
+							Breadth First Traversal or BFS
+
+						
+										
+						
+
+							School Programming
+
+						
+										
+						
+							Longest Repeated Subsequence
+						
+										
+						
+							Longest Palindromic Subsequence
+						
+										
+						
+							Detect a negative cycle in a Graph | (Bellman Ford)
+						
+										
+						
+							0-1 Knapsack Problem
+						
+										
+						
+							GATE CS Notes
+						
+										
+						
+							Depth First Traversal or DFS for a Graph
+						
+										
+						
+							Reverse a linked list
+
+						
+					
+						
+					
+				
+					
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+					
+    
+        
+            
+                Most Visited Posts
+            
+        
+    
+    
+        
+            
+                Top 10 Algorithms and Data Structures for Competitive Programming
+            
+        
+        
+            
+                Top 10 algorithms in Interview Questions
+            
+        
+        
+            
+                How to begin with Competitive Programming?
+            
+        
+        
+            
+                Step by Step Guide for Placement Preparation
+            
+        
+        
+            
+                How to prepare for ACM-ICPC?
+            
+        
+        
+            
+                Insertion Sort,
+                Binary Search,
+                QuickSort,
+                MergeSort,
+                HeapSort
+            
+        
+    
+
+					
+
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+					
+    
+        
+            
+                Popular Categories
+            
+        
+    
+    
+
+        
+            
+                Interview Experiences
+            
+        
+        
+            
+                Advanced Data Structures
+            
+        
+
+        
+            
+                Dynamic Programming
+            
+        
+        
+            
+                Greedy Algorithms
+            
+        
+        
+            
+                Backtracking
+            
+        
+        
+            
+                Pattern Searching
+            
+        
+        
+            
+                Divide &amp; Conquer
+            
+        
+        
+            
+                Geometric Algorithms
+            
+        
+        
+            
+                Searching
+            
+        
+        
+            
+                Sorting
+            
+        
+        
+            
+                Analysis of Algorithms
+            
+        
+        
+            
+                Mathematical Algorithms
+            
+        
+        
+            
+                Randomized Algorithms
+            
+        
+        
+            
+                Recursion
+            
+        
+        
+            
+                Game Theory
+            
+
+            							Statistical Algorithms            
+
+        
+
+    
+
+					
+
+
+		TagsAdvanced Data Structure
+Amazon
+Aptitude
+Aptitude
+Arrays
+Articles
+Bit Magic
+C
+C
+C++
+C++ Quiz
+Computer Networks
+CPP-Library
+C Quiz
+Data Structures
+Data Structures
+DBMS
+Dynamic Programming
+Experienced
+GBlog
+Geometric
+Graph
+Hash
+Internship
+Interview Experiences
+Java
+Linked Lists
+Mathematical
+Matrix
+Microsoft
+number-digits
+Program Output
+Project
+Puzzles
+Python
+QA - Placement Quizzes
+QA - Placement Quizzes
+School Programming
+Searching
+series
+Sorting
+STL
+Strings
+Technical Scripter
+Trees
+			
+
+
+					
+  
+    
+  
+
+				
+		
+	
+		
+		
+		
+		
+
+  
+    @geeksforgeeks, 
+    Some rights reserved &nbsp; &nbsp; &nbsp; &nbsp;Contact Us!
+     &nbsp; &nbsp; &nbsp; &nbsp;About Us!&nbsp; &nbsp; &nbsp;
+     &nbsp; &nbsp; &nbsp;Careers!&nbsp; &nbsp; 
+    &nbsp; &nbsp; &nbsp; Privacy Policy&nbsp; &nbsp;&nbsp; 
+    
+    
+      
+    
+    
+      
+    
+    
+      
+    
+    
+      
+    
+    
+      
+    
+  
+
+
+				
+
+
+
+
+
+// below changes to be added in gfg.js in future.
+// load comment button click when page scroll to it and positioned ad in mobile view.
+flag=0;jQuery(window).scroll(function(){if(jQuery('#comment').length !=0 ){var hT=jQuery('#comment').offset().top,hH=jQuery('#comment').outerHeight(),wH=jQuery(window).height(),wS=jQuery(this).scrollTop();if(wS>(hT+hH-wH-70)&&!flag){jQuery('#comment').click();flag=1}}});var temp_width=jQuery(window).width();if(temp_width1){jQuery(jQuery('.responsiveAd')).insertAfter('article:eq(2)');jQuery('.rectangleAd').hide()}
+else if(jQuery('#practiceLinkDiv').length>0){jQuery(jQuery('.responsiveAd')).insertAfter('#practiceLinkDiv');jQuery('.rectangleAd').css('width','')}else{jQuery('.responsiveAd').hide();jQuery('.rectangleAd').css('width','')}}
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12148232-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  
+
+
+
+
+
+
 
 
