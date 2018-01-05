@@ -52,7 +52,7 @@ fh.close()
 '''
 &#8220; = "(left)
 &#8221; = ""(right)
-&#8217= '(aphorstophe)
+&#8217= '(aporstophe)
 &#92;=\
 &#48=0
 &quot;=""

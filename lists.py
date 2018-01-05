@@ -10,16 +10,18 @@ def list1():
             finstr=str(i)+' '+s+'\n'
             f1.write(finstr)
     f1.write("\n\n\n")
-    f1.write("\n-----------------------------------------------NEXT OPTIONS-----------------------------------------\n")
+    f1.write("\n-----------------------------------------------NEXT OPTIONS----------------------------------------\n")
     f1.close()
 def adress(n):
     return linkdict[n]
 def list2():
+    url="https://www.geeksforgeeks.org/"
     from second import secondstage
     with open("mu","a") as f1:
         for i in secondstage:
             if(i>1):
                 s=secondstage[i]
+                s=s[len(url):]
                 finstr=str(i)+' '+s+'\n'
                 f1.write(finstr)
         f1.write("\n\n\n")

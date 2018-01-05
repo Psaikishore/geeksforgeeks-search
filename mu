@@ -188,781 +188,323 @@
 
 
 
------------------------------------------------NEXT OPTIONS-----------------------------------------
-2 https://www.geeksforgeeks.org/data-structures/linked-list/
-3 https://www.geeksforgeeks.org/stack/
-4 https://www.geeksforgeeks.org/queue/
-5 https://www.geeksforgeeks.org/binary-tree-2/
-6 https://www.geeksforgeeks.org/binary-search-tree/
-7 https://www.geeksforgeeks.org/heap/
-8 https://www.geeksforgeeks.org/hashing/
-9 https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
-10 https://www.geeksforgeeks.org/matrix/
-11 https://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/
-12 https://www.geeksforgeeks.org/overview-of-data-structures-set-2-binary-tree-bst-heap-and-hash/
-13 https://www.geeksforgeeks.org/overview-of-data-structures-set-3-graph-trie-segment-tree-and-suffix-tree/
-14 https://www.geeksforgeeks.org/abstract-data-types/
-15 https://www.geeksforgeeks.org/linked-list-vs-array/
-16 https://www.geeksforgeeks.org/how-to-write-functions-that-modify-the-head-pointer-of-a-linked-list/
-17 https://www.geeksforgeeks.org/swap-nodes-in-a-linked-list-without-swapping-data/
-18 https://www.geeksforgeeks.org/write-a-function-to-reverse-the-nodes-of-a-linked-list/
-19 https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
-20 https://www.geeksforgeeks.org/merge-sort-for-linked-list/
-21 https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
-22 https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
-23 https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
-24 https://www.geeksforgeeks.org/rotate-a-linked-list/
-25 https://www.geeksforgeeks.org/generic-linked-list-in-c-2/
-26 https://www.geeksforgeeks.org/circular-singly-linked-list-insertion/
-27 https://www.geeksforgeeks.org/split-a-circular-linked-list-into-two-halves/
-28 https://www.geeksforgeeks.org/sorted-insert-for-circular-linked-list/
-29 https://www.geeksforgeeks.org/delete-a-node-in-a-doubly-linked-list/
-30 https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/
-31 https://www.geeksforgeeks.org/the-great-tree-list-recursion-problem/
-32 https://www.geeksforgeeks.org/quicksort-for-linked-list/
-33 https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/
-34 https://www.geeksforgeeks.org/data-structures/linked-list/
-35 https://www.geeksforgeeks.org/archives/18754
-36 https://www.geeksforgeeks.org/archives/6547
-37 https://www.geeksforgeeks.org/archives/8405
-38 https://www.geeksforgeeks.org/archives/6921
-39 https://www.geeksforgeeks.org/sort-a-stack-using-recursion/
-40 https://www.geeksforgeeks.org/the-stock-span-problem/
-41 https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
-42 https://www.geeksforgeeks.org/implement-stack-using-queue/
-43 https://www.geeksforgeeks.org/design-a-stack-with-find-middle-operation/
-44 https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/
-45 https://www.geeksforgeeks.org/sort-a-stack-using-recursion/
-46 https://www.geeksforgeeks.org/stack/
-47 https://www.geeksforgeeks.org/archives/11042
-48 https://www.geeksforgeeks.org/implementation-deque-using-circular-array/
-49 https://www.geeksforgeeks.org/archives/5009
-50 https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/
-51 https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/
-52 https://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/
-53 https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/
-54 https://www.geeksforgeeks.org/queue/
-55 https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/
-56 https://www.geeksforgeeks.org/applications-of-tree-data-structure/
-57 https://www.geeksforgeeks.org/618/
-58 https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/
-59 https://www.geeksforgeeks.org/level-order-tree-traversal/
-60 https://www.geeksforgeeks.org/diameter-of-a-binary-tree/
-61 https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
-62 https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/
-63 https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/
-64 https://www.geeksforgeeks.org/if-you-are-given-two-traversal-sequences-can-you-construct-the-binary-tree/
-65 https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/
-66 https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
-67 https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/
-68 https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/
-69 https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/
-70 https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/
-71 https://www.geeksforgeeks.org/connect-nodes-at-same-level/
-72 https://www.geeksforgeeks.org/binary-tree-2/
-73 https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/
-74 https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/
-75 https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
-76 https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/
-77 https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
-78 https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/
-79 https://www.geeksforgeeks.org/merge-two-bsts-with-limited-extra-space/
-80 https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
-81 https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/
-82 https://www.geeksforgeeks.org/in-place-conversion-of-sorted-dll-to-balanced-bst/
-83 https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/
-84 https://www.geeksforgeeks.org/g-fact-18/
-85 https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/
-86 https://www.geeksforgeeks.org/binary-tree-to-binary-search-tree-conversion/
-87 https://www.geeksforgeeks.org/binary-search-tree/
-88 https://www.geeksforgeeks.org/why-is-binary-heap-preferred-over-bst-for-priority-queue/
-89 https://www.geeksforgeeks.org/binomial-heap-2/
-90 https://www.geeksforgeeks.org/fibonacci-heap-set-1-introduction/
-91 https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
-92 https://www.geeksforgeeks.org/nearly-sorted-algorithm/
-93 https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/
-94 https://www.geeksforgeeks.org/heap/
-95 https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
-96 https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/
-97 https://www.geeksforgeeks.org/union-and-intersection-of-two-linked-lists/
-98 https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
-99 https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/
-100 https://www.geeksforgeeks.org/find-itinerary-from-a-given-list-of-tickets/
-101 https://www.geeksforgeeks.org/find-number-of-employees-under-every-manager/
-102 https://www.geeksforgeeks.org/hashing/
-103 https://www.geeksforgeeks.org/graph-and-its-representations/
-104 https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/
-105 https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/
-106 https://www.geeksforgeeks.org/applications-of-depth-first-search/
-107 https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/
-108 https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
-109 https://www.geeksforgeeks.org/union-find/
-110 https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
-111 https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/
-112 https://www.geeksforgeeks.org/topological-sorting/
-113 https://www.geeksforgeeks.org/bipartite-graph/
-114 https://www.geeksforgeeks.org/snake-ladder-problem-2/
-115 https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/
-116 https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/
-117 https://www.geeksforgeeks.org/assign-directions-to-edges-so-that-the-directed-graph-remains-acyclic/
-118 https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
-119 https://www.geeksforgeeks.org/memory-efficient-doubly-linked-list/
-120 https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-1/
-121 https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-2/
-122 https://www.geeksforgeeks.org/skip-list/
-123 https://www.geeksforgeeks.org/self-organizing-list-set-1-introduction/
-124 https://www.geeksforgeeks.org/unrolled-linked-list-set-1-introduction/
-125 https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
-126 https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/
-127 https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/
-128 https://www.geeksforgeeks.org/persistent-segment-tree-set-1-introduction/
-129 https://www.geeksforgeeks.org/tag/segment-tree/
-130 https://www.geeksforgeeks.org/trie-insert-and-search/
-131 https://www.geeksforgeeks.org/trie-delete/
-132 https://www.geeksforgeeks.org/longest-prefix-matching-a-trie-based-solution-in-java/
-133 https://www.geeksforgeeks.org/print-unique-rows/
-134 https://www.geeksforgeeks.org/implement-reverse-dns-look-cache/
-135 https://www.geeksforgeeks.org/implement-forward-dns-look-cache/
-136 https://www.geeksforgeeks.org/tag/trie/
-137 https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
-138 https://www.geeksforgeeks.org/two-dimensional-binary-indexed-tree-or-fenwick-tree/
-139 https://www.geeksforgeeks.org/binary-indexed-tree-range-updates-point-queries/
-140 https://www.geeksforgeeks.org/binary-indexed-tree-range-update-range-queries/
-141 https://www.geeksforgeeks.org/tag/binary-indexed-tree/
-142 https://www.geeksforgeeks.org/suffix-array-set-1-introduction/
-143 https://www.geeksforgeeks.org/suffix-array-set-2-a-nlognlogn-algorithm/
-144 https://www.geeksforgeeks.org/%c2%ad%c2%adkasais-algorithm-for-construction-of-lcp-array-from-suffix-array/
-145 https://www.geeksforgeeks.org/pattern-searching-set-8-suffix-tree-introduction/
-146 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/
-147 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/
-148 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-3/
-149 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-4/
-150 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-5/
-151 https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-6/
-152 https://www.geeksforgeeks.org/generalized-suffix-tree-1/
-153 https://www.geeksforgeeks.org/suffix-tree-application-4-build-linear-time-suffix-array/
-154 https://www.geeksforgeeks.org/suffix-tree-application-1-substring-check/
-155 https://www.geeksforgeeks.org/suffix-tree-application-2-searching-all-patterns/
-156 https://www.geeksforgeeks.org/suffix-tree-application-3-longest-repeated-substring/
-157 https://www.geeksforgeeks.org/suffix-tree-application-6-longest-palindromic-substring/
-158 https://www.geeksforgeeks.org/tag/suffix-tree/
-159 https://www.geeksforgeeks.org/avl-tree-set-1-insertion/
-160 https://www.geeksforgeeks.org/avl-tree-set-2-deletion/
-161 https://www.geeksforgeeks.org/splay-tree-set-1-insert/
-162 https://www.geeksforgeeks.org/splay-tree-set-2-insert-delete/
-163 https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/
-164 https://www.geeksforgeeks.org/b-tree-set-1-insert-2/
-165 https://www.geeksforgeeks.org/b-tree-set-3delete/
-166 https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/
-167 https://www.geeksforgeeks.org/red-black-tree-set-2-insert/
-168 https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/
-169 https://www.geeksforgeeks.org/tag/self-balancing-bst/
-170 https://www.geeksforgeeks.org/k-dimensional-tree/
-171 https://www.geeksforgeeks.org/k-dimensional-tree-set-2-find-minimum/
-172 https://www.geeksforgeeks.org/k-dimensional-tree-set-3-delete/
-173 https://www.geeksforgeeks.org/treap-a-randomized-binary-search-tree/
-174 https://www.geeksforgeeks.org/ternary-search-tree/
-175 https://www.geeksforgeeks.org/interval-tree/
-176 https://www.geeksforgeeks.org/implement-lru-cache/
-177 https://www.geeksforgeeks.org/sort-numbers-stored-on-different-machines/
-178 https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/
-179 https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together-set-2/
-180 https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/
-181 https://www.geeksforgeeks.org/decision-trees-fake-coin-puzzle/
-182 https://www.geeksforgeeks.org/g-fact-87/
-183 https://www.geeksforgeeks.org/data-structure-dictionary-spell-checker/
-184 https://www.geeksforgeeks.org/cartesian-tree/
-185 https://www.geeksforgeeks.org/cartesian-tree-sorting/
-186 https://www.geeksforgeeks.org/sparse-set/
-187 https://www.geeksforgeeks.org/centroid-decomposition-of-tree/
-188 https://www.geeksforgeeks.org/gomory-hu-tree-introduction/
-189 https://www.geeksforgeeks.org/search-insert-and-delete-in-an-unsorted-array/
-190 https://www.geeksforgeeks.org/search-insert-and-delete-in-a-sorted-array/
-191 https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array/
-192 https://www.geeksforgeeks.org/leaders-in-an-array/
-193 https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
-194 https://www.geeksforgeeks.org/majority-element/
-195 https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/
-196 https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
-197 https://www.geeksforgeeks.org/find-the-missing-number/
-198 https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
-199 https://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/
-200 https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
-201 https://www.geeksforgeeks.org/array-rotation/
-202 https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/
-203 https://www.geeksforgeeks.org/block-swap-algorithm-for-array-rotation/
-204 https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
-205 https://www.geeksforgeeks.org/sort-elements-by-frequency/
-206 https://www.geeksforgeeks.org/counting-inversions/
-207 https://www.geeksforgeeks.org/array/
-208 https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
-209 https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
-210 https://www.geeksforgeeks.org/a-boolean-matrix-question/
-211 https://www.geeksforgeeks.org/print-unique-rows/
-212 https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
-213 https://www.geeksforgeeks.org/print-unique-rows/
-214 https://www.geeksforgeeks.org/inplace-m-x-n-size-matrix-transpose/
-215 https://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/
-216 https://www.geeksforgeeks.org/strassens-matrix-multiplication/
-217 https://www.geeksforgeeks.org/create-a-matrix-with-alternating-rectangles-of-0-and-x/
-218 https://www.geeksforgeeks.org/print-elements-sorted-order-row-column-wise-sorted-matrix/
-219 https://www.geeksforgeeks.org/given-n-x-n-square-matrix-find-sum-sub-squares-size-k-x-k/
-220 https://www.geeksforgeeks.org/count-number-islands-every-island-separated-line/
-221 https://www.geeksforgeeks.org/find-common-element-rows-row-wise-sorted-matrix/
-222 https://www.geeksforgeeks.org/matrix/
-223 https://www.geeksforgeeks.org/expression-tree/
-224 http://www.stumbleupon.com/submit?url=https://www.geeksforgeeks.org/data-structures/&title=Data Structures
-225 https://ide.geeksforgeeks.org/
-
-
-
-
-
-&#8216;Recent Articles&#8217; on Hashing
-Topic :
-
-
-
-Basics
-Easy
-Intermediate
-
-
-
-
-Hard
-Misc
-Quick Links
-
-
-
-Basics :
-
-
-Introduction
-Index Mapping (or Trivial Hashing)
-Separate Chaining for Collision Handling 
-Open Addressing for Collision Handling 
-
-
-Easy :
-
-
-Print a Binary Tree in Vertical Order | Set 2 (Hashmap based Method)
-Find whether an array is subset of another array
-Union and Intersection of two Linked Lists
-Given an array A[] and a number x, check for pair in A[] with sum as x
-Check if a given array contains duplicate elements within k distance from each other
-Given an array of pairs, find all symmetric pairs in it
-Group multiple occurrence of array elements ordered by first occurrence
-How to check if two given sets are disjoint?
-Pair with given product | Set 1 (Find if any pair exists)
-Find missing elements of a range
-Count pairs with given sum
-Convert an array to reduced form | Set 1 (Simple and Hashing)
-Return maximum occurring character in an input string
-Find the first repeating element in an array of integers
-Print All Distinct Elements of a given integer array
-Find all permuted rows of a given row in a matrix
-
-
-Intermediate :
-
-
-Find Itinerary from a given list of tickets
-Find number of Employees Under every Employee
-Check if an array can be divided into pairs whose sum is divisible by k
-Find four elements a, b, c and d in an array such that a+b = c+d
-Find the largest subarray with 0 sum
-Longest Consecutive Subsequence
-Count distinct elements in every window of size k
-Design a data structure that supports insert, delete, search and getRandom in constant time
-Length of the largest subarray with contiguous elements
-Find if there is a subarray with 0 sum
-Print all subarrays with 0 sum
-Find subarray with given sum | Set 2 (Handles Negative Numbers)
-Implementing our Own Hash Table with Separate Chaining in Java
-Vertical Sum in a given Binary Tree 
-Group Shifted String
-Check for Palindrome after every character replacement Query
-
-
-Hard :
-
-
-Clone a Binary Tree with Random Pointers
-Largest subarray with equal number of 0s and 1s
-Palindrome Substring Queries
-Find smallest range containing elements from k lists
-Cuckoo Hashing – Worst case O(1) Lookup!
-Subarrays with distinct elements
-
-
-Misc :
-
-
-Advantages of BST over Hash Table
-Internal Working of HashMap in Java
-Hash Table vs STL Map
-
-
-Quick Links :
-
-&#8216;Practice Problems&#8217; on Hashing
-&#8216;Quizzes&#8217; on Hashing
-&#8216;Videos&#8217; on Hashing
-
-If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
-Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
-			
-
-
-
- Big Rectangle Blog Bottom 
-
-
-(adsbygoogle = window.adsbygoogle || []).push({});
-
--->
-
-
-
-
-(adsbygoogle = window.adsbygoogle || []).push({});
-
-
-
-
-
-
-
-(adsbygoogle = window.adsbygoogle || []).push({});
-
-
-
-
-Company Wise Coding Practice
-&nbsp;&nbsp;&nbsp;Topic Wise Coding Practice
-
-
-
-		
-		
-					
-	
-	
-	
-
-	
-   
-    
-    
-        
-    
-    
-    
-    
-        
-    
-    
-    
-    
-        
-    
-    
-    
-    
-        
-    
-
-    
-    
-        
-    
-    
-    
-    
-        
-    
-    
-    
-    
-        
-    
-    
-    
-    
-        
-    
-   
-	
-
-	
-	Writing code in comment? Please use ide.geeksforgeeks.org, generate link and share the link here.
-	
-	
-		Load Comments
-		Share this post !
-
-	
-
-        
-
-					
-	
-
-	jQuery(document).ready(function($){$('#comment').on('click',function(){$.ajax({type:"GET",url:"http://geeksforgeeks.disqus.com/embed.js",dataType:"script",cache:!0});$(this).fadeOut()});if(window.location.href.indexOf('#comment') > -1){jQuery('#comment').click();}});
-
-
- 
-#share-buttons img {
-width: 35px;
-padding: 5px;
-border: 0;
-box-shadow: 0;
-display: inline;
-}
-#share-buttons a:hover {
-	text-decoration: none;
+-----------------------------------------------NEXT OPTIONS----------------------------------------
+2 breadth-first-traversal-for-a-graph/
+3 depth-first-traversal-for-a-graph/
+4 applications-of-depth-first-search/
+5 applications-of-breadth-first-traversal/
+6 find-longest-path-directed-acyclic-graph/
+7 find-a-mother-vertex-in-a-graph/
+8 transitive-closure-of-a-graph-using-dfs/
+9 find-k-cores-graph/
+10 iterative-depth-first-traversal/
+11 iterative-deepening-searchids-iterative-deepening-depth-first-searchiddfs/
+12 detect-cycle-in-a-graph/
+13 union-find/
+14 detect-cycle-undirected-graph/
+15 detect-cycle-direct-graph-using-colors/
+16 assign-directions-to-edges-so-that-the-directed-graph-remains-acyclic/
+17 detect-negative-cycle-graph-bellman-ford/
+18 topological-sorting/
+19 all-topological-sorts-of-a-directed-acyclic-graph/
+20 topological-sorting-indegree-based-solution/
+21 greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/
+22 applications-of-minimum-spanning-tree/
+23 greedy-algorithms-set-5-prims-mst-for-adjacency-list-representation/
+24 greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/
+25 greedy-algorithms-set-9-boruvkas-algorithm/
+26 steiner-tree/
+27 find-if-there-is-a-path-of-more-than-k-length-from-a-source/
+28 tug-of-war/
+29 backtracking-set-1-the-knights-tour-problem/
+30 backttracking-set-2-rat-in-a-maze/
+31 backtracking-set-3-n-queen-problem/
+32 backttracking-set-5-m-coloring-problem/
+33 backtracking-set-7-hamiltonian-cycle/
+34 greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/
+35 greedy-algorithms-set-7-dijkstras-algorithm-for-adjacency-list-representation/
+36 dynamic-programming-set-23-bellman-ford-algorithm/
+37 dynamic-programming-set-16-floyd-warshall-algorithm/
+38 johnsons-algorithm/
+39 shortest-path-for-directed-acyclic-graphs/
+40 interesting-shortest-path-questions-set-1/
+41 shortest-path-exactly-k-edges-directed-weighted-graph/
+42 dials-algorithm-optimized-dijkstra-for-small-range-weights/
+43 printing-paths-dijkstras-shortest-path-algorithm/
+44 shortest-path-weighted-graph-weight-edge-1-2/
+45 find-if-there-is-a-path-between-two-vertices-in-a-given-graph/
+46 connectivity-in-a-directed-graph/
+47 articulation-points-or-cut-vertices-in-a-graph/
+48 biconnectivity-in-a-graph/
+49 bridge-in-a-graph/
+50 eulerian-path-and-circuit/
+51 fleurys-algorithm-for-printing-eulerian-path/
+52 strongly-connected-components/
+53 transitive-closure-of-a-graph/
+54 find-number-of-islands/
+55 count-possible-paths-source-destination-exactly-k-edges/
+56 euler-circuit-directed-graph/
+57 biconnected-components/
+58 kargers-algorithm-for-minimum-cut-set-1-introduction-and-implementation/
+59 find-if-there-is-a-path-of-more-than-k-length-from-a-source/
+60 length-of-shortest-chain-to-reach-a-target-word/
+61 find-paths-given-source-destination/
+62 find-the-minimum-cost-to-reach-a-destination-where-every-station-is-connected-in-one-direction/
+63 tarjan-algorithm-find-strongly-connected-components/
+64 graph-coloring-applications/
+65 graph-coloring-set-2-greedy-algorithm/
+66 travelling-salesman-problem-set-1/
+67 travelling-salesman-problem-set-2-approximate-using-mst/
+68 backtracking-set-7-hamiltonian-cycle/
+69 vertex-cover-problem-set-1-introduction-approximate-algorithm-2/
+70 k-centers-problem-set-1-greedy-approximate-algorithm/
+71 ford-fulkerson-algorithm-for-maximum-flow-problem/
+72 find-edge-disjoint-paths-two-vertices/
+73 minimum-cut-in-a-directed-graph/
+74 maximum-bipartite-matching/
+75 channel-assignment-problem/
+76 push-relabel-algorithm-set-1-introduction-and-illustration/
+77 push-relabel-algorithm-set-2-implementation/
+78 kargers-algorithm-for-minimum-cut-set-1-introduction-and-implementation/
+79 kargers-algorithm-for-minimum-cut-set-2-analysis-and-applications/
+80 kruskals-minimum-spanning-tree-using-stl-in-c/
+81 prims-algorithm-using-priority_queue-stl/
+82 dijkstras-shortest-path-algorithm-using-priority_queue-stl/
+83 dijkstras-shortest-path-algorithm-using-set-in-stl/
+84 number-of-triangles-in-a-undirected-graph/
+85 number-of-triangles-in-directed-and-undirected-graphs/
+86 bipartite-graph/
+87 snake-ladder-problem-2/
+88 bipartite-graph/
+89 boggle-find-possible-words-board-characters/
+90 hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/
+91 hopcroft-karp-algorithm-for-maximum-matching-set-2-implementation/
+92 minimum-time-required-so-that-all-oranges-become-rotten/
+93 find-same-contacts-in-a-list-of-contacts/
+94 optimal-read-list-given-number-days/
+95 print-all-jumping-numbers-smaller-than-or-equal-to-a-given-value/
+96 data-structures/
+97 mit?url=https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/&title=Graph Data Structure And Algorithms
+98 
+
+
+
+
+
+We strongly recommend to refer below post as a prerequisite.
+Hopcroft–Karp Algorithm for Maximum Matching | Set 1 (Introduction)
+There are few important things to note before we start implementation.
+
+We need to find an augmenting path (A path that alternates between matching and not matching edges, and has free vertices as starting and ending points).
+Once we find alternating path, we need to add the found path to existing Matching. Here adding path means, making previous matching edges on this path as not-matching and previous not-matching edges as matching.
+
+The idea is to use BFS (Breadth First Search) to find augmenting paths. Since BFS traverses level by level, it is used to divide the graph in layers of matching and not matching edges.  A dummy vertex NIL is added that is connected to all vertices on left side and all vertices on right side.  Following arrays are used to find augmenting path.  Distance to NIL is initialized as INF (infinite).  If we start from dummy vertex and come back to it using alternating path of distinct vertices, then there is an augmenting path.
+
+ pairU[]: An array of size m+1 where m is number of vertices on left side of Bipartite Graph. pairU[u] stores pair of u on right side if u is matched and NIL otherwise.
+ pairV[]: An array of size n+1 where n is number of vertices on right side of Bipartite Graph. pairU[v] stores pair of v on left side if v is matched and NIL otherwise.
+ dist[]: An array of size m+1 where m is number of vertices on left side of Bipartite Graph.  dist[u] is initialized as 0 if u is not matching and INF (infinite) otherwise. dist[] of NIL is also initialized as INF
+
+Once an augmenting path is found, DFS (Depth First Search) is used to add augmenting paths to current matching.  DFS simply follows the distance array setup by BFS.  It fills values in pairU[u] and pairV[v] if v is next to u in BFS.  
+Below is C++ implementation of above Hopkroft Karp algorithm.
+
+// C++ implementation of Hopcroft Karp algorithm for
+// maximum matching
+#include<bits/stdc++.h>
+using namespace std;
+#define NIL 0
+#define INF INT_MAX
+
+// A class to represent Bipartite graph for Hopcroft
+// Karp implementation
+class BipGraph
+{
+	// m and n are number of vertices on left
+	// and right sides of Bipartite Graph
+	int m, n;
+
+	// adj[u] stores adjacents of left side
+	// vertex 'u'. The value of u ranges from 1 to m.
+	// 0 is used for dummy vertex
+	list<int> *adj;
+
+	// These are basically pointers to arrays needed
+	// for hopcroftKarp()
+	int *pairU, *pairV, *dist;
+
+public:
+	BipGraph(int m, int n); // Constructor
+	void addEdge(int u, int v); // To add edge
+
+	// Returns true if there is an augmenting path
+	bool bfs();
+
+	// Adds augmenting path if there is one beginning
+	// with u
+	bool dfs(int u);
+
+	// Returns size of maximum matcing
+	int hopcroftKarp();
+};
+
+// Returns size of maximum matching
+int BipGraph::hopcroftKarp()
+{
+    // pairU[u] stores pair of u in matching where u
+    // is a vertex on left side of Bipartite Graph.
+    // If u doesn't have any pair, then pairU[u] is NIL
+	pairU = new int[m+1];
+
+    // pairV[v] stores pair of v in matching. If v
+    // doesn't have any pair, then pairU[v] is NIL
+	pairV = new int[n+1];
+
+	// dist[u] stores distance of left side vertices
+	// dist[u] is one more than dist[u'] if u is next
+	// to u'in augmenting path
+	dist = new int[m+1];
+
+	// Initialize NIL as pair of all vertices
+	for (int u=0; u<m; u++)
+		pairU[u] = NIL;
+	for (int v=0; v<n; v++)
+		pairV[v] = NIL;
+
+	// Initialize result
+	int result = 0;
+
+	// Keep updating the result while there is an
+	// augmenting path.
+	while (bfs())
+	{
+		// Find a free vertex
+		for (int u=1; u<=m; u++)
+
+			// If current vertex is free and there is
+			// an augmenting path from current vertex
+			if (pairU[u]==NIL &amp;&amp; dfs(u))
+				result++;
+	}
+	return result;
 }
 
+// Returns true if there is an augmenting path, else returns
+// false
+bool BipGraph::bfs()
+{
+	queue<int> Q; //an integer queue
 
-			
-						
+	// First layer of vertices (set distance as 0)
+	for (int u=1; u<=m; u++)
+	{
+		// If this is a free vertex, add it to queue
+		if (pairU[u]==NIL)
+		{
+			// u is not matched
+			dist[u] = 0;
+			Q.push(u);
+		}
 
+		// Else set distance as infinite so that this vertex
+		// is considered next time
+		else dist[u] = INF;
+	}
 
+	// Initialize distance to NIL as infinite
+	dist[NIL] = INF;
 
-(adsbygoogle = window.adsbygoogle || []).push({});
+	// Q is going to contain vertices of left side only. 
+	while (!Q.empty())
+	{
+		// Dequeue a vertex
+		int u = Q.front();
+		Q.pop();
 
-					
-					
-						
-							
-								Trending Content
-							
-						
-						
+		// If this node is not NIL and can provide a shorter path to NIL
+		if (dist[u] < dist[NIL])
+		{
+			// Get all adjacent vertices of the dequeued vertex u
+			list<int>::iterator i;
+			for (i=adj[u].begin(); i!=adj[u].end(); ++i)
+			{
+				int v = *i;
 
+				// If pair of v is not considered so far
+				// (v, pairV[V]) is not yet explored edge.
+				if (dist[pairV[v]] == INF)
+				{
+					// Consider the pair and add it to queue
+					dist[pairV[v]] = dist[u] + 1;
+					Q.push(pairV[v]);
+				}
+			}
+		}
+	}
 
-						
+	// If we could come back to NIL using alternating path of distinct
+	// vertices then there is an augmenting path
+	return (dist[NIL] != INF);
+}
 
+// Returns true if there is an augmenting path beginning with free vertex u
+bool BipGraph::dfs(int u)
+{
+	if (u != NIL)
+	{
+		list<int>::iterator i;
+		for (i=adj[u].begin(); i!=adj[u].end(); ++i)
+		{
+			// Adjacent to u
+			int v = *i;
 
-							Longest Common Subsequence
+			// Follow the distances set by BFS
+			if (dist[pairV[v]] == dist[u]+1)
+			{
+				// If dfs for pair of v also returns
+				// true
+				if (dfs(pairV[v]) == true)
+				{
+					pairV[v] = u;
+					pairU[u] = v;
+					return true;
+				}
+			}
+		}
 
-						
-								
-												
-						
+		// If there is no augmenting path beginning with u.
+		dist[u] = INF;
+		return false;
+	}
+	return true;
+}
 
+// Constructor
+BipGraph::BipGraph(int m, int n)
+{
+	this->m = m;
+	this->n = n;
+	adj = new list<int>[m+1];
+}
 
-							Breadth First Traversal or BFS
+// To add edge from u to v and v to u
+void BipGraph::addEdge(int u, int v)
+{
+	adj[u].push_back(v); // Add u to v’s list.
+	adj[v].push_back(u); // Add u to v’s list.
+}
 
-						
-										
-						
+// Driver Program
+int main()
+{
+	BipGraph g(4, 4);
+	g.addEdge(1, 2);
+	g.addEdge(1, 3);
+	g.addEdge(2, 1);
+	g.addEdge(3, 2);
+	g.addEdge(4, 2);
+	g.addEdge(4, 4);
 
-							School Programming
+	cout << "Size of maximum matching is " << g.hopcroftKarp();
 
-						
-										
-						
-							Longest Repeated Subsequence
-						
-										
-						
-							Longest Palindromic Subsequence
-						
-										
-						
-							Detect a negative cycle in a Graph | (Bellman Ford)
-						
-										
-						
-							0-1 Knapsack Problem
-						
-										
-						
-							GATE CS Notes
-						
-										
-						
-							Depth First Traversal or DFS for a Graph
-						
-										
-						
-							Reverse a linked list
-
-						
-					
-						
-					
-				
-					
-
-
-
-(adsbygoogle = window.adsbygoogle || []).push({});
-
-					
-    
-        
-            
-                Most Visited Posts
-            
-        
-    
-    
-        
-            
-                Top 10 Algorithms and Data Structures for Competitive Programming
-            
-        
-        
-            
-                Top 10 algorithms in Interview Questions
-            
-        
-        
-            
-                How to begin with Competitive Programming?
-            
-        
-        
-            
-                Step by Step Guide for Placement Preparation
-            
-        
-        
-            
-                How to prepare for ACM-ICPC?
-            
-        
-        
-            
-                Insertion Sort,
-                Binary Search,
-                QuickSort,
-                MergeSort,
-                HeapSort
-            
-        
-    
-
-					
-
-
-
-(adsbygoogle = window.adsbygoogle || []).push({});
-
-					
-    
-        
-            
-                Popular Categories
-            
-        
-    
-    
-
-        
-            
-                Interview Experiences
-            
-        
-        
-            
-                Advanced Data Structures
-            
-        
-
-        
-            
-                Dynamic Programming
-            
-        
-        
-            
-                Greedy Algorithms
-            
-        
-        
-            
-                Backtracking
-            
-        
-        
-            
-                Pattern Searching
-            
-        
-        
-            
-                Divide &amp; Conquer
-            
-        
-        
-            
-                Geometric Algorithms
-            
-        
-        
-            
-                Searching
-            
-        
-        
-            
-                Sorting
-            
-        
-        
-            
-                Analysis of Algorithms
-            
-        
-        
-            
-                Mathematical Algorithms
-            
-        
-        
-            
-                Randomized Algorithms
-            
-        
-        
-            
-                Recursion
-            
-        
-        
-            
-                Game Theory
-            
-
-            							Statistical Algorithms            
-
-        
-
-    
-
-					
-
-
-		TagsAdvanced Data Structure
-Amazon
-Aptitude
-Aptitude
-Arrays
-Articles
-Bit Magic
-C
-C
-C++
-C++ Quiz
-Computer Networks
-CPP-Library
-C Quiz
-Data Structures
-Data Structures
-DBMS
-Dynamic Programming
-Experienced
-GBlog
-Geometric
-Graph
-Hash
-Internship
-Interview Experiences
-Java
-Linked Lists
-Mathematical
-Matrix
-Microsoft
-number-digits
-Program Output
-Project
-Puzzles
-Python
-QA - Placement Quizzes
-QA - Placement Quizzes
-School Programming
-Searching
-series
-Sorting
-STL
-Strings
-Technical Scripter
-Trees
-			
-
-
-					
-  
-    
-  
-
-				
-		
-	
-		
-		
-		
-		
-
-  
-    @geeksforgeeks, 
-    Some rights reserved &nbsp; &nbsp; &nbsp; &nbsp;Contact Us!
-     &nbsp; &nbsp; &nbsp; &nbsp;About Us!&nbsp; &nbsp; &nbsp;
-     &nbsp; &nbsp; &nbsp;Careers!&nbsp; &nbsp; 
-    &nbsp; &nbsp; &nbsp; Privacy Policy&nbsp; &nbsp;&nbsp; 
-    
-    
-      
-    
-    
-      
-    
-    
-      
-    
-    
-      
-    
-    
-      
-    
-  
-
-
-				
-
-
-
-
-
-// below changes to be added in gfg.js in future.
-// load comment button click when page scroll to it and positioned ad in mobile view.
-flag=0;jQuery(window).scroll(function(){if(jQuery('#comment').length !=0 ){var hT=jQuery('#comment').offset().top,hH=jQuery('#comment').outerHeight(),wH=jQuery(window).height(),wS=jQuery(this).scrollTop();if(wS>(hT+hH-wH-70)&&!flag){jQuery('#comment').click();flag=1}}});var temp_width=jQuery(window).width();if(temp_width1){jQuery(jQuery('.responsiveAd')).insertAfter('article:eq(2)');jQuery('.rectangleAd').hide()}
-else if(jQuery('#practiceLinkDiv').length>0){jQuery(jQuery('.responsiveAd')).insertAfter('#practiceLinkDiv');jQuery('.rectangleAd').css('width','')}else{jQuery('.responsiveAd').hide();jQuery('.rectangleAd').css('width','')}}
-
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-12148232-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-  
-
-
-
-
-
-
-
+	return 0;
+}
 
